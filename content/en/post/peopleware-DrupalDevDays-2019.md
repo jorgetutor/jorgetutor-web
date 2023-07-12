@@ -21,6 +21,8 @@ In this session, we will reinforce how important is to focus on the people and t
 - Productivity & waste
 - Conclusions
 
+{{< youtube ze6zgpKOugQ >}}
+
 ## Resources & References
 - DrupalDevDays: <https://cluj2019.drupaldays.org/diving-into-peopleware>
 - Reference: 

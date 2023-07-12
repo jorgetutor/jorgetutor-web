@@ -345,7 +345,6 @@ Time is limited: accept that increasing any specific pilar will impact the other
 - Set boundaries between your professional and personal life
 
 ## Resources & References
-- Reference: https://events.drupal.org/europe2020.html
-- Slides: https://docs.google.com/presentation/d/1hRfan3ka7HpRg75bKDCYWEgdR7CcRMLn9GdDMbRBXw4/edit?usp=sharing
-- GitLab
+- [DrupalCon 2020](https://events.drupal.org/europe2020.html)
+- [Slides](https://docs.google.com/presentation/d/1hRfan3ka7HpRg75bKDCYWEgdR7CcRMLn9GdDMbRBXw4/edit?usp=sharing)
 

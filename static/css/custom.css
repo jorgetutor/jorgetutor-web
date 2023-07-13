@@ -7,6 +7,11 @@
     .intro-header {
         margin-top: 100px;
     }
+
+    footer .footer-links {
+        margin: 10px auto;
+        max-width: 300px;
+    }
 }
 
 img {
@@ -31,6 +36,11 @@ article li {
 
     .post-preview {
         border-bottom: 1px solid rgb(37, 37, 37);
+    }
+
+    .post-heading .post-meta {
+        background-color: #000000;
+        padding: 5px;
     }
     
     body {

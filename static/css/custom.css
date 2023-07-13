@@ -17,3 +17,7 @@ article li {
     margin-top: 0.5em;
     margin-bottom: 1em;
 }
+
+.post-preview .post-read-more {
+    float: none;
+}

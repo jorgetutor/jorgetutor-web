@@ -2,7 +2,7 @@
 title: Manage your life better (personal notes) — Alberto Pena
 subtitle: With dreams, you are inspired, with goals you are guided, and with objectives you make progress.
 date: 2020-01-05
-tags: ['book', 'self-management', 'time-management']
+tags: ['book-review', 'self-management', 'time-management']
 ---
 
 ![Book Cover](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1349258941i/7238953.jpg)

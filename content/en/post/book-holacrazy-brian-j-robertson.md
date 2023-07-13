@@ -2,7 +2,7 @@
 title: "Holacrazy (personal notes) — Brian J. Robertson"
 subtitle: "The New Management System for a Rapidly Changing World."
 date: 2020-04-25
-tags: ["books", "organizations", "holacrazy"]
+tags: ['book-review', "organizations", "holacrazy"]
 ---
 
 ![Book Cover](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1426127698i/23526564.jpg)

@@ -2,7 +2,7 @@
 title: How to Change the World (personal notes) - Jurgen Appelo
 subtitle: How to change which current management is still doing and you don’t like it.
 date: 2020-01-05
-tags: ['organizations', 'management']
+tags: ['book-review', organizations', 'management']
 ---
 
 ![Book Cover](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1336320164i/13561217.jpg)

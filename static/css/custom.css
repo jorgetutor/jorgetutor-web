@@ -27,6 +27,39 @@ article li {
     float: none;
 }
 
+.posts-list h2.post-title {
+    font-size: 1.5em;
+}
+.posts-list h3.post-subtitle {
+    font-size: 1.2em;
+}
+
+.posts-list .post-meta {
+    font-size: 1em;
+    padding-top: 0.5em;
+}
+
+.posts-list .post-entry {
+    font-size: 0.8em;
+}
+
+.well {
+    border: none;
+    padding: 0;
+}
+
+.navbar .containter-fluid {
+    max-width: 768px;
+}
+
+.intro-header.big-img:before {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75)) no-repeat center center;
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
 
 @media (prefers-color-scheme: dark) {
     .navbar-custom {
@@ -42,7 +75,7 @@ article li {
         background-color: #000000;
         padding: 5px;
     }
-    
+
     body {
         background: #111;
         color: white;
@@ -52,5 +85,8 @@ article li {
         background: #000000;
         border-top: 1px solid rgb(37, 37, 37);
     }
-}
 
+    .well {
+        background-color: transparent;
+    }
+}

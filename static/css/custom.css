@@ -21,3 +21,26 @@ article li {
 .post-preview .post-read-more {
     float: none;
 }
+
+
+@media (prefers-color-scheme: dark) {
+    .navbar-custom {
+        background: #000000;
+        border-bottom: 1px solid rgb(37, 37, 37);
+    }
+
+    .post-preview {
+        border-bottom: 1px solid rgb(37, 37, 37);
+    }
+    
+    body {
+        background: #111;
+        color: white;
+    }
+    
+    footer {
+        background: #000000;
+        border-top: 1px solid rgb(37, 37, 37);
+    }
+}
+

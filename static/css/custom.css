@@ -8,3 +8,12 @@
         margin-top: 100px;
     }
 }
+
+img {
+    background-color: white;
+}
+
+article li {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}

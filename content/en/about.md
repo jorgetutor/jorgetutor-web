@@ -1,6 +1,6 @@
 ---
 title: About me
-subtitle: Why you'd want to date with me
+subtitle: Why you'd want to have a "date" with me
 comments: false
 ---
 

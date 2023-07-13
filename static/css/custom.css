@@ -1,0 +1,10 @@
+
+@media only screen and (max-width: 768px) {
+    .navbar-custom .avatar-container {
+        width: 75px;
+    }
+
+    .intro-header {
+        margin-top: 100px;
+    }
+}

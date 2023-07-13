@@ -13,17 +13,17 @@ Probably you have heard about the five\* Ps: Product, Pricing, Promotion, Positi
 
 > You must be remarkable, you must be a Purple Cow.
 
-Nowadays the post-consumption consumer is too busy to spend a lot of time researching something and is out of things to buy. Nearly finished products or services push by traditional marketing departments **no longer works**.
+Nowadays the post-consumption consumer is too busy to spend a lot of time researching something and is out of things to buy. Nearly finished products or services push by traditional marketing departments **no longer work**.
 
-_Before_ advertising, there was the word of mouth. _During_ advertising, there was a strong direct relationship between advertising investment and revenue. _After_ advertising, we are almost back where it started (trusted networks). Let’s assume that most people are not interested in your product (no one is listening), don’t have the money or the time to know about it.
+_Before_ advertising, there was word of mouth. _During_ advertising, there was a strong direct relationship between advertising investment and revenue. _After_ advertising, we are almost back where it started (trusted networks). Let’s assume that most people are not interested in your product (no one is listening), don’t have the money or the time to know about it.
 
 Most _boring_ needs are already covered, _everybody-products_ are all taken. Instead, you should focus on finding a market segment, a niche that really and truly will react to what you want to sell, and then make a **remarkable product**.
 
-Embrace the idea to spend more money on the concept/design of your product as there won’t be a specialized market department to persuade your failure product idea to the customers (at least not in the long term). Focus on the innovator’s group (sneezers). Sneezers like to sneeze. Finding and seducing these sneezers is an essential step in creating an _idea-virus_.
+Embrace the idea to spend more money on the concept/design of your product as there won’t be a specialized market department to persuade your failed product idea to customers (at least not in the long term). Focus on the innovator’s group (sneezers). Sneezers like to sneeze. Finding and seducing these sneezers is an essential step in creating an _idea-virus_.
 
 ![Moore’s idea diffusion curve](https://smithhousedesign.com/wp-content/uploads/2018/02/smithHOUSE-design-digital-marketing-consulting-phoenix-crossing-the-chasm-1024x712.png)
 
-Moore’s idea diffusion curve. ([smithhousedesign.com](https://smithhousedesign.com/models-predicting-future-geoffrey-moores-crossing-chasm/))
+Moore’s idea of diffusion curve. ([smithhousedesign.com](https://smithhousedesign.com/models-predicting-future-geoffrey-moores-crossing-chasm/))
 
 ## Before & After
 
@@ -58,15 +58,15 @@ Milk the Cow for everything it’s worth (as long as possible), and at the same 
 
 Go for the edges taking in mind always the financial model, a nonprofitable business is doomed to die.
 
-Explain to your sneezers why it’s worth to recommend your product instead of old-fashion slogans. Do you have a positioning statement that is actually true?
+Explain to your sneezers why it’s worth recommending your product instead of old-fashion slogans. Do you have a positioning statement that is actually true?
 
-Let the team in charge of creating the new company’s _purple cow_ to innovate and get out of their way, don’t try to figure out if the new product is going to work, just test it in the real market.
+Let the team in charge of creating the new company’s _purple cow_ innovate and get out of their way, don’t try to figure out if the new product is going to work, just test it in the real market.
 
-Product attributes are the heart of the success or failure, take a design course rather than a marketing one.
+Product attributes are the heart of success or failure, take a design course rather than a marketing one.
 
-> If you are a marketer who doesn’t know how to invent, design, influence, adapt, and ultimately discard products, then you are no longer a marketer. You are a deadwood.
+> If you are a marketer who doesn’t know how to invent, design, influence, adapt, and ultimately discard products, then you are no longer a marketer. You are deadwood.
 
-Create a culture of aggressively prototyping (cheap prototyping), launch products, watch, measure, learn and do it again.
+Create a culture of aggressive prototyping (cheap prototyping), launch products, watch, measure, learn, and do it again.
 
 ### The cycle of the cow
 
@@ -80,13 +80,13 @@ Create a culture of aggressively prototyping (cheap prototyping), launch product
 > Remarkable isn’t about changing the biggest machine in your factory. It can be the way you answer the phone, launch a new brand, or price a revision of your software.
 
 *   Tell the truth, practice the _unsafe_.
-*   Specialize in a very narrow niche and becoming the best.
+*   Specialize in a very narrow niche and become the best.
 *   Market-beating combination of quality and price.
 *   Fortify your desire to do truly amazing things.
 *   Innovate, avoid the fear of failure, avoid the fear of offending, **avoid being boring and safe!**
-*   Avoid noise to sneezers, doing nothing sometimes is better than do mediocre achievements.
-*   Be the best at anything worth measuring or talk about.
-*   Go where the competition is not (furthest as possible).
+*   Avoid noise to sneezers, doing nothing sometimes is better than doing mediocre achievements.
+*   Be the best at anything worth measuring or talking about.
+*   Go where the competition is not (as furthest as possible).
 *   Explore the limits: cheapest, fastest, hottest, loudest, the outsider, the copycat, the hardest… most!
 *   Think of the smallest conceivable market.
 *   Build (and use) a permission asset, talk directly to your most loyal customers.

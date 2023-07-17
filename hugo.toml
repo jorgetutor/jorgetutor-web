@@ -13,7 +13,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "IT Program Manager growing teams and invidividuals"
+  subtitle = "IT Program Manager growing teams and individuals"
   mainSections = ["post","posts"]
   logo = "/images/jorgetutor-square.png" # Expecting square dimensions
   favicon = "favicon.ico"
@@ -22,7 +22,7 @@ pygmentsCodefencesGuessSyntax = true
   rss = true
   comments = true
   readingTime = true
-  wordCount = true
+  wordCount = false
   useHLJS = true
   socialShare = true
   delayDisqus = true
@@ -40,9 +40,9 @@ pygmentsCodefencesGuessSyntax = true
 #  desc = "Sphere"
 #  # position: see values of CSS background-position.
 #  position = "center top"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
+[[Params.bigimg]]
+  src = "/images/mars-background-2.jpeg"
+#  desc = "mars"
 
 [Author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")

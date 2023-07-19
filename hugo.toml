@@ -1,4 +1,4 @@
-baseurl = "https://jorgetutor.github.io"
+baseurl = "https://jorgetutor.net"
 DefaultContentLanguage = "en"
 title = "Jorge Tutor"
 theme = "beautifulhugo"
@@ -41,7 +41,8 @@ pygmentsCodefencesGuessSyntax = true
 #  # position: see values of CSS background-position.
 #  position = "center top"
 [[Params.bigimg]]
-  src = "/images/mars-background-2.jpeg"
+  src = "/images/futuristic-city.jpeg"
+  position = "center center"
 #  desc = "mars"
 
 [Author]

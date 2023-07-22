@@ -41,7 +41,7 @@ pygmentsCodefencesGuessSyntax = true
 #  # position: see values of CSS background-position.
 #  position = "center top"
 [[Params.bigimg]]
-  src = "/images/futuristic-city.jpeg"
+  src = "/images/desktop.jpg"
   position = "center center"
 #  desc = "mars"
 

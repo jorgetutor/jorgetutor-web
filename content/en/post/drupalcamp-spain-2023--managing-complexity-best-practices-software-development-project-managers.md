@@ -1,6 +1,6 @@
 ---
-title: "DrupalCamp Spain 2023 - Managing Complexity"
-subtitle: "Best Practices for Software Development Project Managers"
+title: "Managing Complexity: Best Practices for Software Development Project Managers"
+subtitle: "DrupalCamp Spain 2023 - Sevilla, Spain"
 date: 2023-09-25
 tags: ['drupal-camp-es', "management", "project-management"]
 bigimg: [{src: "/images/drupalcampspain-2023.jpg", desc: "DrupalCamp Spain - Sevilla"}]

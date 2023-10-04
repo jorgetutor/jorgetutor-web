@@ -1,5 +1,5 @@
 ---
-title: "Strategies for overcomming Unrealistic Deadlines in Software Development as a Manager"
+title: "Strategies for overcomming Unrealistic Deadlines in Software Development as a Project Manager"
 subtitle:  Project Management Series
 date: 2023-10-04
 image: /images/long-road-dessert.jpeg

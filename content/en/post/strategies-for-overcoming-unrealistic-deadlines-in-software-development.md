@@ -5,6 +5,8 @@ date: 2023-10-04
 image: /images/long-road-dessert.jpeg
 bigimg: [{src: "/images/long-road-dessert.jpeg", desc: ""}]
 summary: Unrealistic deadlines are a common problem in software development. They can harm the quality of the work, the morale of the team, and overall, the project's success. This article discusses the dangers of unrealistic deadlines, how to identify them, and specific actions to attenuate them.
+aliases:
+- "/post/strategies-for-overcomming-unrealistic-deadlines-in-software-development/"  
 ---
 
 Unrealistic deadlines are a common problem in software development. They can harm the **quality of the work**, the **morale of the team**, and overall, the **project's success**. This article discusses the dangers of unrealistic deadlines, how to identify them, and specific actions to attenuate them.
@@ -49,7 +51,7 @@ In addition to these signs, you can also look at the following **metrics** to de
 There are several things you can do to avoid and attenuate unrealistic deadlines, including:
 
 - Set **realistic deadlines** in the first place. This may seem *obvious*, but it is important to take the time to estimate how long each task will take and to factor in **buffer** time for unexpected delays (e.g. illness, external dependencies). Remember estimations must be provided by the team and not imposed by managers. Consider also the additional time needed on brainstorming (backlog refinement), analysis and exploration.
-- **Break down large tasks into smaller** (more manageable) tasks. This continued break down large tasks into smaller, more manageable tasks. This will make it easier to estimate the time required for each task and to track progress.
+- **Break down large tasks into smaller** (more manageable) tasks. This will make it easier to estimate the time required for each task and to track progress. This is a iterative process, go as far as needed. 
 - **Communicate with stakeholders regularly** and keep them updated on progress. This will help to ensure that everyone is on the same page and that there are no surprises down the road. **A deadline is a shared commitment** that both, stakeholders and development team, must collaborate on.
 Be prepared to adjust deadlines as needed. Things don't always go according to plan, so it is important to be prepared to adjust deadlines as needed. This may involve communicating with stakeholders and explaining why an extension or scope reduction is necessary.
 - **Prioritize tasks and focus on the most important ones first**. This will help to ensure that the most important tasks are completed on time, even if the deadlines for less important tasks have to be adjusted.

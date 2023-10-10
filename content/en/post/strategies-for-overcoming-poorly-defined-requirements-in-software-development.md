@@ -5,6 +5,7 @@ date: 2023-10-10
 image: /images/chair-assembly-instructions-fail.jpeg
 bigimg: [{src: "/images/chair-assembly-instructions-fail.jpeg", desc: ""}]
 summary: Poorly defined requirements are one of the major causes of software project failure. Unclear or unknown requirements can lead to scope creep, misunderstandings between stakeholders and the development team, difficulty in testing and maintaining the product, customer dissatisfaction, and project failure. This article explores strategies for overcoming poorly defined requirements from a manager's perspective.
+tags: ['project-management', "software-requirements"]
 ---
 
 Poorly defined requirements are one of the major causes of software project failure. Unclear or unknown requirements can lead to scope creep, misunderstandings between stakeholders and the development team, difficulty in testing and maintaining the product, customer dissatisfaction, and **project failure**. This article explores strategies for overcoming poorly defined requirements from a manager's perspective.
@@ -17,7 +18,7 @@ Poorly defined requirements can lead to several problems for software developmen
 
 - **Lack of definition**:  Empty or vague requirements without real examples or use cases.
 - **Minimal stakeholder involvement and commitment**: stakeholders are as essential as the other teams (UX, UI, Dev...)  in the requirements discovery, negotiation, and final agreement by collaboration. Requirements must not be fixed or imposed!
-- **Misunderstandings between stakeholders and the development team**: If the stakeholders and the development team have different understandings of the requirements an their complexity, it can lead to defects in the product and delays.
+- **Misunderstandings between stakeholders and the development team**: If the stakeholders and the development team have different understandings of the requirements and their complexity, it can lead to defects in the product and delays.
 - **Frequent changes to the requirements**: When the requirements are changing frequently, it can lead to scope creep and the inability to plan resources adequately. They also involve constant refactoring phases, and waste of resources (e.g. code-rework and time-consuming).
 - **Scope creep**  (when new features or requirements are added to the project after the initial scope has been agreed): This can lead to increased costs and delays.
 Difficulty in testing the product: If it is difficult to test a product that no one knows clearly how it should behave, mostly on the edge use cases, it can lead to defects in the product and uncovered scenarios.

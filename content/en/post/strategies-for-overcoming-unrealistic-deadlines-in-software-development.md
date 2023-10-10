@@ -5,6 +5,7 @@ date: 2023-10-04
 image: /images/long-road-dessert.jpeg
 bigimg: [{src: "/images/long-road-dessert.jpeg", desc: ""}]
 summary: Unrealistic deadlines are a common problem in software development. They can harm the quality of the work, the morale of the team, and overall, the project's success. This article discusses the dangers of unrealistic deadlines, how to identify them, and specific actions to attenuate them.
+tags: ['project-management', "project-deadlines"]
 aliases:
 - "/post/strategies-for-overcomming-unrealistic-deadlines-in-software-development/"  
 ---

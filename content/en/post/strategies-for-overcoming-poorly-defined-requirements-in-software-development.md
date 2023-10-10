@@ -5,7 +5,7 @@ date: 2023-10-10
 image: /images/chair-assembly-instructions-fail.jpeg
 bigimg: [{src: "/images/chair-assembly-instructions-fail.jpeg", desc: ""}]
 summary: Poorly defined requirements are one of the major causes of software project failure. Unclear or unknown requirements can lead to scope creep, misunderstandings between stakeholders and the development team, difficulty in testing and maintaining the product, customer dissatisfaction, and project failure. This article explores strategies for overcoming poorly defined requirements from a manager's perspective.
-tags: ['project-management', "software-requirements"]
+tags: ['project-management', "software-requirements", "BDD"]
 ---
 
 Poorly defined requirements are one of the major causes of software project failure. Unclear or unknown requirements can lead to scope creep, misunderstandings between stakeholders and the development team, difficulty in testing and maintaining the product, customer dissatisfaction, and **project failure**. This article explores strategies for overcoming poorly defined requirements from a manager's perspective.

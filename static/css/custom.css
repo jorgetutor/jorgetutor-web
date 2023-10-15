@@ -62,6 +62,7 @@ article li {
 
 
 @media (prefers-color-scheme: dark) {
+
     .navbar-custom {
         background: #000000;
         border-bottom: 1px solid rgb(37, 37, 37);
@@ -78,6 +79,10 @@ article li {
 
     body {
         background: #111;
+        color: #CCC;
+    }
+    
+    strong {
         color: white;
     }
     

@@ -60,6 +60,10 @@ article li {
   position: absolute;
 }
 
+a {
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
 
 @media (prefers-color-scheme: dark) {
 

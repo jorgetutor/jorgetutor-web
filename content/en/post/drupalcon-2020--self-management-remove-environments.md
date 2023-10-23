@@ -9,7 +9,11 @@ image: "/images/drupalcon-2020.png"
 
 Summary and main ideas of the DrupalCon 2020 session.
 
+Video:
 {{< youtube 0zax_kubN10 >}}
+
+Slides:
+{{< gslides 1hRfan3ka7HpRg75bKDCYWEgdR7CcRMLn9GdDMbRBXw4 >}}
 
 ## Why Self-Management in Remote Environments
 
@@ -347,5 +351,4 @@ Time is limited: accept that increasing any specific pilar will impact the other
 
 ## Resources & References
 - [DrupalCon 2020](https://events.drupal.org/europe2020.html)
-- [Slides](https://docs.google.com/presentation/d/1hRfan3ka7HpRg75bKDCYWEgdR7CcRMLn9GdDMbRBXw4/edit?usp=sharing)
 

@@ -10,9 +10,14 @@ Software development projects are inherently complex, requiring management skill
 
 In this session, we explore and discuss strategies for managing the top challenges that managers face in software development projects.
 
+Video:
+
 {{< youtube eWWVIsDYpTw >}}
 
-[See the Full Presentation](https://docs.google.com/presentation/d/18mchru70PgRSYZP9Wk6xuz6JQIneVImFUtWmj3obeiU/edit)
+Slides:
+
+{{< gslides 18mchru70PgRSYZP9Wk6xuz6JQIneVImFUtWmj3obeiU >}}
+
 
 ## Managing Project Scope
 

@@ -1,7 +1,7 @@
 ---
 title: "Self-Management in Remote Environments"
 subtitle: "DrupalCon Europe 2020 - Barcelona, Spain"
-tags: ["Drupal","DrupalCon","self-management","management","team-management"]
+tags: ["session", "Drupal","DrupalCon","self-management","management","team-management"]
 date: 2020-12-09T14:02:27+02:00
 bigimg: [{src: "/images/drupalcon-2020.png", desc: "DrupalCon 2020"}]
 image: "/images/drupalcon-2020.png"

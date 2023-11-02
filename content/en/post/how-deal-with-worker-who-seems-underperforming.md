@@ -7,7 +7,7 @@ image: /images/poor-performance.jpg
 bigimg: [{src: "/images/poor-performance.jpg", desc: "Poor Performance"}]
 ---
 
-In a recent session, a critical question arose: How can a manager deal with an employee who consistently delivers work late or incomplete, even when they provide the initial project estimations themselves? The manager in question appeared that have already tried numerous conventional solutions without success. This common dilemma underscores the importance of effective worker performance management and the need for *alternative* approaches.
+In a recent session, a critical question arose: How can a manager deal with an employee who consistently delivers work late or incomplete, even when they provide the initial project estimations themselves? The manager in question appeared to have already tried numerous conventional solutions without success. This common dilemma underscores the importance of effective worker performance management and the need for *alternative* approaches.
 
 Worker performance is an **ever-present concern** for managers in today's fast-paced business world. The pressure to meet targets and deadlines often leads to a focus on productivity metrics. However, this approach can be misleading, as it may **not consider an individual's true capabilities or the broader impact on the team.**
 

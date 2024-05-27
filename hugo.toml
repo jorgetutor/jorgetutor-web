@@ -12,7 +12,7 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 
 [Params]
-#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  homeTitle = "Jorge Tutor"
   subtitle = "IT Program Manager growing teams and individuals"
   mainSections = ["post","posts"]
   logo = "/images/jorgetutor-square.png" # Expecting square dimensions

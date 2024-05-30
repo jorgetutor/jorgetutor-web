@@ -27,7 +27,7 @@ For example, consider the claim that "20% of content creation and 80% of publish
 
 ## The 20% Focus in IT and Beyond
 
-In IT, the advice to "focus on the 20% that makes the difference" is prevalent. However, this can be misleading. Imagine a scenario in surgery where focusing only on 20% of the procedure could lead to catastrophic results. **Surgeons cannot stop once 20% of the surgery is done; the remaining 80% is equally crucial** for the patient's recovery and overall success of the operation. The same logic applies to IT projects where neglecting the other 80% can result in incomplete or faulty outcomes.
+The advice to "focus on the 20% that makes the difference" is prevalent. However, this can be misleading. Imagine a scenario in surgery where focusing only on 20% of the procedure could lead to catastrophic results. **Surgeons cannot stop once 20% of the surgery is done; the remaining 80% is equally crucial** for the patient's recovery and overall success of the operation. The same logic applies to IT projects where neglecting the other 80% can result in incomplete or faulty outcomes.
 
 To counter this, it is essential to establish a **clear definition of done**. This means:
 - **Setting Clear Completion Criteria**: Ensure every task has a defined endpoint aligned with company quality standards.

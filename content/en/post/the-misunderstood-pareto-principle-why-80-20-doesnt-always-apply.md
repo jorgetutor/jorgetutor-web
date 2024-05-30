@@ -2,7 +2,7 @@
 title: "The Misunderstood Pareto Principle: Why 80/20 Doesn't Always Apply"
 date: 2024-05-29T21:28:48+02:00
 summary: "The Pareto Principle, or 80/20 rule, is often misapplied and misunderstood. While it can be a powerful tool for prioritizing efforts, its over-simplification can lead to neglect of critical tasks. This blog post explores the origins of the Pareto Principle, its common misapplications, and the importance of maintaining a balanced approach. It addresses critiques about the principle encouraging laziness, the potential neglect of important details, and the risk of burnout. The post also discusses integrating the principle with agile methodologies and highlights the need for common sense and thorough study before applying it indiscriminately."
-tags: ['ParetoPrinciple', 'ProjectManagement', 'AgileMethodology', 'Burnout', 'DefinitionOfDone', 'ScopeCreep']
+tags: ['pareto-principle', 'project-management', 'agile-methodology', 'burnout', 'definitio-o-done', 'scope-creep']
 image: /images/pareto.webp
 bigimg: [{src: "/images/pareto.webp", desc: "The Pareto Principle"}]
 ---

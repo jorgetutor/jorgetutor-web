@@ -45,7 +45,7 @@ pygmentsCodefencesGuessSyntax = true
   position = "center center"
 #  desc = "mars"
 
-[Author]
+[Params.Author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
   # name = "Jorge Tutor"
   # website = "https://jorgetutor.net"
@@ -71,7 +71,7 @@ pygmentsCodefencesGuessSyntax = true
   #telegram = "username"
   #500px = "username"
   #codepen = "username"
-  #mastodon = "url"
+  mastodon = "https://mastodon.social/@jorgetutor"
   #kaggle = "username"
   #weibo = "username"
   #slack = "username"

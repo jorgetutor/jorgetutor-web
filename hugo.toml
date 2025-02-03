@@ -13,9 +13,9 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
   homeTitle = "Jorge Tutor"
-  subtitle = "Empowering Individuals and Teams with Lasting Management Skills"
+  subtitle = "Empowering Individuals and Teams with Lasting Management Skills "
   mainSections = ["post","posts"]
-  logo = "/images/jorgetutor-square.png" # Expecting square dimensions
+  logo = "/images/jorgetutor-comic-head.png" # Expecting square dimensions
   favicon = "favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false

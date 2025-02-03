@@ -12,6 +12,8 @@ After **more than 15 years dedicated to software projects**, leading work teams,
 
 I speak from my own experience as an employee, as a teammate, as an entrepreneur… as a person. I read, experiment, learn, rehearse, make mistakes, retest, fail early, analyze, and **start again!** Little by little, I am developing a method that I share through keynotes, courses, and my blog.
 
+![Jorge Tutor](/images/jorgetutor-square.png)
+
 ## Sessions
 
 Find here some recorded sessions example from different congress I have participated:

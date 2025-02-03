@@ -1,0 +1,3 @@
+// RSS:
+https://raw.githubusercontent.com/frjo/hugo-theme-zen/refs/heads/main/layouts/_default/rss.xml
+hugo --buildDrafts

@@ -13,7 +13,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
   homeTitle = "Jorge Tutor"
-  subtitle = "IT Program Manager growing teams and individuals"
+  subtitle = "Empowering Individuals and Teams with Lasting Management Skills"
   mainSections = ["post","posts"]
   logo = "/images/jorgetutor-square.png" # Expecting square dimensions
   favicon = "favicon.ico"

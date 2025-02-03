@@ -40,9 +40,9 @@ pygmentsCodefencesGuessSyntax = true
 #  desc = "Sphere"
 #  # position: see values of CSS background-position.
 #  position = "center top"
-[[Params.bigimg]]
-  src = "/images/desktop.jpg"
-  position = "center center"
+#[[Params.bigimg]]
+#  src = "/images/books-street.webp"
+#  position = "center center"
 #  desc = "mars"
 
 [Params.Author]

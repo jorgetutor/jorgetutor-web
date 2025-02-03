@@ -13,14 +13,14 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
   homeTitle = "Jorge Tutor"
-  subtitle = "Empowering Individuals and Teams with Lasting Management Skills "
+  subtitle = "Empowering Teams and Individuals with Lasting Management Skills "
   mainSections = ["post","posts"]
   logo = "/images/jorgetutor-comic-head.png" # Expecting square dimensions
   favicon = "favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
-  comments = true
+  comments = false
   readingTime = true
   wordCount = false
   useHLJS = true
@@ -32,14 +32,6 @@ pygmentsCodefencesGuessSyntax = true
 #  disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
   since = 2018
 
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#  # position: see values of CSS background-position.
-#  position = "center top"
 #[[Params.bigimg]]
 #  src = "/images/books-street.webp"
 #  position = "center center"

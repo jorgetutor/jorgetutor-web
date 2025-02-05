@@ -7,7 +7,7 @@ image: /images/jorgetutor-RACI-matrix.jpg
 bigimg: [{src: "/images/jorgetutor-RACI-matrix.jpg", desc: "RACI matrix"}]
 ---
 
-Ever faced confusion over project roles? A **RACI chart** (Responsibility Assignment Matrix) eliminates uncertainty by clearly defining who does what. It prevents role overlap, streamlines communication, and ensures accountability.
+Have you ever faced confusion over project roles? A **RACI chart** (Responsibility Assignment Matrix) eliminates uncertainty by clearly defining who does what. It prevents role overlap, streamlines communication, and ensures accountability.
 
 ### **What is RACI?**  
 - **Responsible (R)** – Executes the task  

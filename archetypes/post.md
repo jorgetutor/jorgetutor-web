@@ -4,7 +4,7 @@ date: {{ .Date }}
 draft: true
 summary: ""
 tags: ['project-management']
-image: foo.jpg
-bigimg: [{src: "/images/foo.jpg", desc: "Foo"}]
+image: /images/jorgetutor-foo.jpg
+bigimg: [{src: "/images/jorgetutor-foo.jpg", desc: "{{ replace .Name "-" " " | title }}"}]
 ---
 

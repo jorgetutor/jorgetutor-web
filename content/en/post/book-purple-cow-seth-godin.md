@@ -2,7 +2,7 @@
 title: "Purple COW: transform your business by being remarkable (personal notes) — Seth Godin"
 subtitle: The old ways of marketing are dead and being safe is now too risky.
 date: 2020-01-03
-tags: ['book-review', 'organizations', 'marketing']
+tags: ['Books', 'organizations', 'marketing']
 ---
 
 ![Book Cover](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1309203098i/641604.jpg)

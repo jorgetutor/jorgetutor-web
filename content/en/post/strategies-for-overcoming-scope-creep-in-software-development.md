@@ -5,7 +5,7 @@ date: 2023-10-15
 image: /images//mushrooms-forest.jpeg
 bigimg: [{src: "/images/mushrooms-forest.jpeg", desc: ""}]
 summary: Scope creep, often described as a silent intruder in project management, poses a significant challenge for software development projects. This article delves into the consequences of scope creep, highlighting the financial, temporal, and quality-related issues it can introduce.
-tags: ['project-management', "scope-creep"]
+tags: ['ProjectManagement', "scope-creep"]
 ---
 
 In the world of software development, projects are often plagued by a sneaky adversary known as **scope creep**. Scope creep refers to the gradual accumulation of changes and additions to a project that was not part of the initial plan. From a manager's perspective, scope creep can wreak havoc on project budgets, timelines, and overall quality. This article explores the consequences of scope creep and provides strategies for managers to prevent or mitigate its impact.

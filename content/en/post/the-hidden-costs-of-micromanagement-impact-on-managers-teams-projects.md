@@ -3,7 +3,7 @@ title: "The Hidden Costs of Micromanagement: Impact on Managers, Teams and Proje
 subtitle: "Management Bad Practices"
 date: 2024-05-30T14:31:25+02:00
 summary: "Have you ever felt like you're constantly being watched at work? Does your manager oversee every little detail, leaving no room for your creativity? If so, you might be experiencing micromanagement. This management style, often rooted in a desire for control and perfection, can have severe long-term effects on both managers and their teams. How does micromanagement impact productivity and morale? More importantly, what steps can we take to mitigate its negative effects?"
-tags: ['micromanagement', 'leadership', 'project-management', 'team-collaboration', 'team-culture']
+tags: ['micromanagement', 'leadership', 'ProjectManagement', 'TeamCollaboration', 'team-culture']
 image: /images/micromanaging.webp
 bigimg: [{src: "/images/micromanaging.webp", desc: "Micromanaging"}]
 ---

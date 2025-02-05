@@ -2,7 +2,7 @@
 title: "Using Spikes to Minimize Uncertainty"
 date: 2025-02-04T19:32:43+01:00
 summary: "When a high-level estimate isn’t enough, should we jump in or analyze it first? Spikes allow controlled effort to refine estimates—without analysis paralysis. The key? Balance discovery with execution. How do you handle estimation trade-offs? #Agile #ProjectManagement #Estimation"
-tags: ['project-management', 'agile', 'estimation', 'spikes']
+tags: ['ProjectManagement', 'agile', 'estimation', 'spikes']
 image: /images/jorgetutor-agile-spikes-estimation.jpg
 bigimg: [{src: "/images/jorgetutor-agile-spikes-estimation.jpg", desc: "Agile Spikes"}]
 ---

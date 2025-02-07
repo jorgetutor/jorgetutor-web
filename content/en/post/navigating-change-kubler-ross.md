@@ -2,7 +2,7 @@
 title: "Navigating Change: How to Lead Teams Through the Kübler-Ross Change Curve"
 date: 2025-02-07T14:37:29+01:00
 summary: "Understanding the Kübler-Ross Change Curve in organizational change management can help leaders support their teams through transitions and ease emotional resistance"
-tags: ['ProjectManagement', 'Change']
+tags: ['Leadership', 'ChangeManagement']
 image: /images/jorgetutor-kubler-ross-stages.jpg
 bigimg: [{src: "/images/jorgetutor-kubler-ross-stages.jpg", desc: "Navigating Change Kubler Ross"}]
 ---

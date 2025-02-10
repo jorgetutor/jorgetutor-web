@@ -2,12 +2,12 @@
 title: "Deadlines Won't Wait: How Timeboxing Keeps You in Control"
 date: 2025-02-10T19:32:12+01:00
 summary: "Deadlines are real, and timeboxing isn’t just a technique—it’s a necessity. Learn how to use timeboxing to stay in control, avoid last-minute panic, and deliver high-quality work on time."
-tags: ['ProjectManagement', 'Timeboxing']
+tags: ['ProjectManagement', 'TimeManagement', 'Timeboxing']
 image: /images/jorgetutor-timebox.jpg
 #bigimg: [{src: "/images/jorgetutor-timebox.jpg", desc: "Deadlines Wont Wait How Timeboxing Keeps You in Control"}]
 ---
 
-I love working in agile. I enjoy the freedom to explore solutions. Agile development embraces flexibility—things evolve, timelines shift, and requirements adjust as we learn. That fluidity fosters innovation. 
+I love working in Agile. I enjoy the freedom to explore solutions. Agile development embraces flexibility—things evolve, timelines shift, and requirements adjust as we learn. That fluidity fosters innovation. 
 
 But then, reality hits. A **hard deadline** appears. An *RFP* that must be submitted by next week. A *marketing campaign* launch date set in stone. A *new product scheduled* for release that cannot be postponed. Suddenly, time is not a flexible concept—it’s a rigid constraint. And when that happens, **timeboxing** isn’t just an option; it’s **the option**.
 
@@ -17,7 +17,7 @@ But then, reality hits. A **hard deadline** appears. An *RFP* that must be submi
 
 Some believe agile means pushing deadlines endlessly to accommodate iterations. That’s a **myth**. Agile thrives on timeboxing. **Sprints are timeboxed events**. Standups, planning meetings, and retrospectives all happen within strict time limits. Agile doesn’t eliminate deadlines; it **helps teams deliver within them** by breaking work into focused timeframes.  
 
-The real challenge is managing open-ended, undefined tasks where there’s no clear endpoint. How do you timebox something without an strict or blur scope?
+The real challenge is managing open-ended, undefined tasks where there’s no clear endpoint. How do you timebox something without an strict or blurred scope?
 
 ## The Leadership Dilemma: When Time Runs Out 
 

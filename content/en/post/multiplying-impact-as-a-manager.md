@@ -1,7 +1,6 @@
 ---
 title: "Multiplying Impact as a Manager"
 date: 2025-02-11T19:17:16+01:00
-draft: true
 summary: "Management isn’t about tracking time or assigning tasks—it’s about multiplying impact. How to avoid the ego trap, escape the drama triangle, and lead effectively. Lessons from *The Making of a Manager*"
 tags: ['ProjectManagement', 'Leadership', 'Management', 'TheMakingOfAManager']
 image: /images/jorgetutor-manager-multiply.jpg

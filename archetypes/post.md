@@ -5,6 +5,7 @@ draft: true
 summary: ""
 tags: ['ProjectManagement']
 image: /images/jorgetutor-foo.jpg
-bigimg: [{src: "/images/jorgetutor-foo.jpg", desc: "{{ replace .Name "-" " " | title }}"}]
+#bigimg: [{src: "/images/jorgetutor-foo.jpg", desc: "{{ replace .Name "-" " " | title }}"}]
 ---
 
+![{{ replace .Name "-" " " | title }}](/images/jorgetutor-foo.jpg)

@@ -1,7 +1,6 @@
 ---
 title: "Acceptance Criteria: a tool for clarity or an excuse for failure"
 date: 2025-02-11T15:15:46+01:00
-draft: true
 summary: "It wasn’t in the AC!, A classic excuse—but was it unclear, or just convenient?
 Good AC define the *what*, not the *how*. But clarity is subjective. Teams must refine, challenge, and think beyond checkboxes. AC are a *guideline*, not a safety net.  
 How do you handle AC conflicts?"

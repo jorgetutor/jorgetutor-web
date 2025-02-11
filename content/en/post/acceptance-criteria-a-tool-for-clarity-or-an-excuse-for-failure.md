@@ -11,7 +11,7 @@ image: /images/jorgetutor-acceptance-criteria-clarity-failure.jpg
 
 *On a regular work inspection, a few days before the sprint ends:*  
 
-- *"It doesn’t work as expected."* - The QA team rejects a feature.
+- *"It doesn’t work."* - The QA team rejects a feature.
 - *"It works fine; that part wasn’t specified."* - The developer replies.
 - *"The feature doesn’t work like the user expected."* - The product owner adds
 - *"But, it meets the acceptance criteria!"* - The developer frowns.
@@ -61,11 +61,11 @@ It's a shared responsibility:
 - **Product Owners** draft AC based on business and user needs.  
 - **Development Teams** refine them to ensure technical feasibility.  
 - **Scrum Masters** facilitate discussions to clarify gaps.  
-- **Business Analysts or Clients** may contribute for complex requirements.  
+- **Business Analysts or Clients** may contribute to complex requirements.  
 
 ## Takeaways  
 - *Ambiguity is a shared failure.* If it’s unclear, it’s everyone’s responsibility to clarify it early.  
-- *AC define the *what*, not the *how*.* Teams must have freedom to implement solutions.  
+- *AC define the *what*, not the *how*.* Teams must have the freedom to implement solutions.  
 - *"Not specified" doesn’t mean "not needed."* Think beyond checkboxes—does the feature truly solve the problem?  
 
 **Next time someone says, "It wasn’t in the AC," ask:** *Was it truly unclear, or was it just convenient?*  

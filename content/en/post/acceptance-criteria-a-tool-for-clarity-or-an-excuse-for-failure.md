@@ -9,7 +9,7 @@ image: /images/jorgetutor-acceptance-criteria-clarity-failure.jpg
 #bigimg: [{src: "/images/jorgetutor-foo.jpg", desc: "Acceptance Criteria a tool for clarity or an excuse for failure"}]
 ---
 
-*On a regular work inspect, a few days before the sprint ends:*  
+*On a regular work inspection, a few days before the sprint ends:*  
 
 - *"It doesn’t work as expected."* - The QA team rejects a feature.
 - *"It works fine; that part wasn’t specified."* - The developer replies.
@@ -18,7 +18,7 @@ image: /images/jorgetutor-acceptance-criteria-clarity-failure.jpg
 
 *Silence. A debate brews. One side argues it *should have been specified*, the other insists *it was clear enough**.
 
-Who is right? The truth is, **everyone interprets ‘clear’ differently.**  
+Who is right? The truth is, that **everyone interprets ‘clear’ differently.**  
 
 - **If AC are too vague:** Teams make assumptions, leading to misunderstandings.  
 - **If AC are too strict:** Developers might meet them *literally* but miss real user needs.  
@@ -27,7 +27,7 @@ Who is right? The truth is, **everyone interprets ‘clear’ differently.**
 ![Acceptance Criteria](/images/jorgetutor-acceptance-criteria-clarity-failure.jpg)
 
 ## **What is the Acceptance Criteria (AC)?**  
-The Acceptance Criteria (AC) define the conditions that a product, feature, or user story must meet to be considered complete. They serve as a **contract between business and development teams**, ensuring everyone understands what "done" really means.  
+The Acceptance Criteria (AC) define the conditions a product, feature, or user story must meet to be considered complete. They serve as a **contract between business and development teams**, ensuring everyone understands what "done" really means.  
 
 ## Why Acceptance Criteria Matter
 AC define the conditions that must be met for a feature to be considered complete. They ensure:  

@@ -5,57 +5,15 @@ import { SITE_TITLE } from '../consts';
 import LogoImg from '../assets/jorgetutor-comic-head.svg';
 ---
 
-<header>
-	<nav>
-		<div class="logo">
-			<a href="/"><Image src={LogoImg} alt="Jorge Tutor Comic" width="42" height="42" /> {SITE_TITLE}</a>
-		</div>
-		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
-		</div>
-	</nav>
+<header class="m-0 px-4 bg-white shadow-[0_2px_8px_rgba(var(--black),0.05)]">
+        <nav class="flex items-center justify-between">
+                <div class="logo m-0 text-base">
+                        <a href="/" class="font-bold no-underline flex items-center gap-2"><Image src={LogoImg} alt="Jorge Tutor Comic" width="42" height="42" /> {SITE_TITLE}</a>
+                </div>
+                <div class="internal-links flex">
+                        <HeaderLink href="/">Home</HeaderLink>
+                        <HeaderLink href="/blog">Blog</HeaderLink>
+                        <HeaderLink href="/about">About</HeaderLink>
+                </div>
+        </nav>
 </header>
-<style>
-	header {
-		margin: 0;
-		padding: 0 1em;
-		background: white;
-		box-shadow: 0 2px 8px rgba(var(--black), 5%);
-	}
-	logo {
-		margin: 0;
-		font-size: 1em;
-	}
-
-	logo a,
-	logo a.active {
-		font-weight: bold;
-		text-decoration: none;
-	}
-	nav {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-	}
-	nav a {
-		padding: 1em 0.5em;
-		color: var(--black);
-		border-bottom: 4px solid transparent;
-		text-decoration: none;
-	}
-	nav a.active {
-		text-decoration: none;
-		border-bottom-color: var(--accent);
-	}
-	.social-links,
-	.social-links a {
-		display: flex;
-	}
-	@media (max-width: 720px) {
-		.social-links {
-			display: none;
-		}
-	}
-</style>

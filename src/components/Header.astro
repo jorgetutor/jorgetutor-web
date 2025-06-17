@@ -1,11 +1,15 @@
 ---
+import { Image } from 'astro:assets';
 import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
+import LogoImg from '../assets/jorgetutor-comic-head.svg';
 ---
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<div class="logo">
+			<a href="/"><Image src={LogoImg} alt="Jorge Tutor Comic" width="42" height="42" /> {SITE_TITLE}</a>
+		</div>
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
@@ -20,13 +24,14 @@ import { SITE_TITLE } from '../consts';
 		background: white;
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
 	}
-	h2 {
+	logo {
 		margin: 0;
 		font-size: 1em;
 	}
 
-	h2 a,
-	h2 a.active {
+	logo a,
+	logo a.active {
+		font-weight: bold;
 		text-decoration: none;
 	}
 	nav {

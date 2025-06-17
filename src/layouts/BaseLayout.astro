@@ -3,18 +3,20 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+
+// The 'frontmatter' prop is automatically passed in from your MDX file.
+const { frontmatter } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead title={frontmatter.title ?? SITE_TITLE} description={frontmatter.description ?? SITE_DESCRIPTION} />
 	</head>
 	<body>
 		<Header />
 		<main>
-			<h1>Jorge Tutor</h1>
-			
+			<slot />
 		</main>
 		<Footer />
 	</body>

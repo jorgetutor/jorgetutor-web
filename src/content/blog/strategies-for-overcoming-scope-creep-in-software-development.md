@@ -2,7 +2,7 @@
 title: "Strategies for overcoming Scope Creep in Software Development as a Project Manager"
 subtitle:  Project Management Series
 pubDate: 2023-10-15
-image: /images//mushrooms-forest.jpeg
+heroImage: ../../assets//mushrooms-forest.jpeg
 bigimg: [{src: "/images/mushrooms-forest.jpeg", desc: ""}]
 description: Scope creep, often described as a silent intruder in project management, poses a significant challenge for software development projects. This article delves into the consequences of scope creep, highlighting the financial, temporal, and quality-related issues it can introduce.
 tags: ['ProjectManagement', "scope-creep"]

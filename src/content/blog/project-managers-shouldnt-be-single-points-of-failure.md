@@ -3,7 +3,7 @@ title: "Project Managers Shouldn't Be Single Points of Failure"
 pubDate: 2025-02-03T18:40:48+01:00
 description: "Project Managers shouldn’t be single points of failure. If your team can’t function without you, you’re a bottleneck, not a leader. Enable, don’t centralize. Build direct collaboration & shared ownership. Can your team run smoothly without you?"
 tags: ['ProjectManagement', 'leadership', 'agileteams']
-image: /images/jorgetutor-projectmanagement-single-point-of-failure.png
+heroImage: ../../assets/jorgetutor-projectmanagement-single-point-of-failure.png
 bigimg: [{src: "/images/jorgetutor-projectmanagement-single-point-of-failure.png", desc: "Project Managers Shouldn't Be Single Points of Failure"}]
 ---
 

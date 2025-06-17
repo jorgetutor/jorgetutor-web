@@ -2,7 +2,7 @@
 title: "Strategies for Overcoming Poorly Defined Requirements in Software Development as a Manager"
 subtitle:  Project Management Series
 pubDate: 2023-10-10
-image: /images/chair-assembly-instructions-fail.jpeg
+heroImage: ../../assets/chair-assembly-instructions-fail.jpeg
 bigimg: [{src: "/images/chair-assembly-instructions-fail.jpeg", desc: ""}]
 description: Poorly defined requirements are one of the major causes of software project failure. Unclear or unknown requirements can lead to scope creep, misunderstandings between stakeholders and the development team, difficulty in testing and maintaining the product, customer dissatisfaction, and project failure. This article explores strategies for overcoming poorly defined requirements from a manager's perspective.
 tags: ['ProjectManagement', "software-requirements", "BDD"]

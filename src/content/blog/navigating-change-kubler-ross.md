@@ -3,8 +3,7 @@ title: "Navigating Change: How to Lead Teams Through the Kübler-Ross Change Cur
 pubDate: 2025-02-07T14:37:29+01:00
 description: "Understanding the Kübler-Ross Change Curve in organizational change management can help leaders support their teams through transitions and ease emotional resistance"
 tags: ['Leadership', 'ChangeManagement']
-image: /images/jorgetutor-kubler-ross-stages.jpg
-bigimg: [{src: "/images/jorgetutor-kubler-ross-stages.jpg", desc: "Navigating Change Kubler Ross"}]
+heroImage: ../../assets/jorgetutor-kubler-ross-stages.jpg
 ---
 
 Change is hard. Whether it’s a company restructure, a new process, or a leadership shift, **resistance is natural**. The **Kübler-Ross Change Curve**, originally created to explain grief, helps us understand how teams emotionally process change.

@@ -5,8 +5,7 @@ description: "It wasn’t in the AC!, A classic excuse—but was it unclear, or 
 Good AC define the *what*, not the *how*. But clarity is subjective. Teams must refine, challenge, and think beyond checkboxes. AC are a *guideline*, not a safety net.  
 How do you handle AC conflicts?"
 tags: ['ProjectManagement', 'Agile', 'SoftwareDevelopment', 'ProductManagement', 'Scrum']
-image: /images/jorgetutor-acceptance-criteria-clarity-failure.jpg
-#bigimg: [{src: "/images/jorgetutor-foo.jpg", desc: "Acceptance Criteria a tool for clarity or an excuse for failure"}]
+heroImage: ../../assets/jorgetutor-acceptance-criteria-clarity-failure.jpg
 ---
 
 *On a regular work inspection, a few days before the sprint ends:*  
@@ -22,9 +21,7 @@ Who is right? The truth is, that **everyone interprets ‘clear’ differently.*
 
 - **If AC are too vague:** Teams make assumptions, leading to misunderstandings.  
 - **If AC are too strict:** Developers might meet them *literally* but miss real user needs.  
-- **If teams rely only on AC:** They lose accountability for critical thinking and problem-solving.  
-
-![Acceptance Criteria](/images/jorgetutor-acceptance-criteria-clarity-failure.jpg)
+- **If teams rely only on AC:** They lose accountability for critical thinking and problem-solving.
 
 ## **What is the Acceptance Criteria (AC)?**  
 The Acceptance Criteria (AC) define the conditions a product, feature, or user story must meet to be considered complete. They serve as a **contract between business and development teams**, ensuring everyone understands what "done" really means.  

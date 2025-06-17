@@ -3,7 +3,7 @@ title: "Stop Micromanagement Before It Starts"
 pubDate: 2025-02-06T16:23:14+01:00
 description: "Micromanagement isn’t just a leadership issue—it’s a trust issue. Here’s how to stop it before it starts"
 tags: ['Micromanagement', 'Leadership', 'Trust']
-image: /images/jorgetutor-micromanagement.jpg
+heroImage: ../../assets/jorgetutor-micromanagement.jpg
 bigimg: [{src: "/images/jorgetutor-micromanagement.jpg", desc: "Stop Micromanagement Before It Starts"}]
 ---
 

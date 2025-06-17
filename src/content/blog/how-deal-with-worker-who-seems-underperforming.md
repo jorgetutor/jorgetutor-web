@@ -3,7 +3,7 @@ title: "How to Deal With a Worker Who Seems to be Underperforming"
 pubDate: 2023-11-01T20:29:04+01:00
 description: "This article explores the common challenge of worker performance from a management perspective. It emphasizes the importance of measuring value over productivity, the significance of creating a supportive and conducive work environment, and the impact of interpersonal relationships on an individual's performance."
 tags: ['ProjectManagement', "performance"]
-image: /images/poor-performance.jpg
+heroImage: ../../assets/poor-performance.jpg
 bigimg: [{src: "/images/poor-performance.jpg", desc: "Poor Performance"}]
 ---
 

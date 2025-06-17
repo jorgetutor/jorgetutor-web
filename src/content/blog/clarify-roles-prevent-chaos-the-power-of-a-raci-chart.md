@@ -3,7 +3,7 @@ title: "Clarify Roles Prevent Chaos the Power of a RACI Chart"
 pubDate: 2025-02-05T15:37:34+01:00
 description: "Improve project clarity with a RACI chart! Learn how to assign roles effectively, prevent miscommunication, and balance workloads. Get a free RACI template to streamline your projects today!"
 tags: ['ProjectManagement', 'Leadership', 'RACI']
-image: /images/jorgetutor-RACI-matrix.jpg
+heroImage: ../../assets/jorgetutor-RACI-matrix.jpg
 bigimg: [{src: "/images/jorgetutor-RACI-matrix.jpg", desc: "RACI matrix"}]
 ---
 

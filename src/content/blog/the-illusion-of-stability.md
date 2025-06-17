@@ -3,14 +3,12 @@ title: "The Illusion of Stability: Why Stagnation Is the Calm Before the Storm"
 pubDate: 2025-04-03T18:43:07+02:00
 description: "Discover why perceived stability in teams and projects can be dangerous. Learn how to spot stagnation early and lead continuous progress before it's too late."
 tags: ['Leadership', 'Management',  'Growth']
-image: /images/jorgetutor-monalisa.png
+heroImage: ../../assets/jorgetutor-monalisa.png
 #bigimg: [{src: "/images/jorgetutor-foo.jpg", desc: "The Illusion of Stability"}]
 ---
 ## The Hidden Danger of Standing Still  
 
 At first glance, stability feels reassuring. A project is running smoothly, teams are aligned, and there are no major fires to put out. But as a leader, manager, or entrepreneur, this sense of calm should make you uneasy. Why? Because nothing is truly static. As Chuck Palahniuk put it in *Fight Club*, *“Nothing is static. Even the Mona Lisa is falling apart.”*
-
-![Mona Lisa](/images/jorgetutor-monalisa.png)
 
 The moment an organization, team, or project stops evolving, it starts deteriorating. You may not see the cracks right away, but they’re forming beneath the surface. And if you don’t move fast, something will break.  
 

@@ -3,7 +3,7 @@ title: "Diving Into Peopleware"
 subtitle: "Drupal Dev Days Europe 2019 - Cluj Napocca, Romania"
 tags: ["session", "Drupal","DrupalDevDays", "team-management"]
 pubDate: 2019-06-13T14:02:27+02:00
-image: /images/drupaldevdays-2019-cluj-napoca.png
+heroImage: ../../assets/drupaldevdays-2019-cluj-napoca.png
 bigimg: [{src: "/images/drupaldevdays-2019-cluj-napoca.png", desc: "DrupalCon 2020"}]
 description: ""
 ---

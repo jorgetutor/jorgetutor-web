@@ -3,7 +3,7 @@ title: "Nonviolent Communication: Transforming Conflicts Building Stronger Relat
 pubDate: 2024-06-10T12:07:41+02:00
 description: "Explore the transformative power of Nonviolent Communication (NVC) to resolve conflicts and build stronger relationships. Learn how empathetic communication can turn heated arguments into opportunities for connection and understanding, fostering mutual respect and empathy in both personal and professional settings."
 tags: ['nonviolent-communication', 'communication', 'team-culture']
-image: /images/violent-communication.webp
+heroImage: ../../assets/violent-communication.webp
 bigimg: [{src: "/images/violent-communication.webp", desc: "violent communication"}]
 ---
 

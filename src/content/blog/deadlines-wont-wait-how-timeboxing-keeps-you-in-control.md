@@ -3,8 +3,7 @@ title: "Deadlines Won't Wait: How Timeboxing Keeps You in Control"
 pubDate: 2025-02-10T19:32:12+01:00
 description: "Deadlines are real, and timeboxing isn’t just a technique—it’s a necessity. Learn how to use timeboxing to stay in control, avoid last-minute panic, and deliver high-quality work on time."
 tags: ['ProjectManagement', 'TimeManagement', 'Timeboxing']
-image: /images/jorgetutor-timebox.jpg
-#bigimg: [{src: "/images/jorgetutor-timebox.jpg", desc: "Deadlines Wont Wait How Timeboxing Keeps You in Control"}]
+heroImage: ../../assets/jorgetutor-timebox.jpg
 ---
 
 I love working in Agile. I enjoy the freedom to explore solutions. Agile development embraces flexibility—things evolve, timelines shift, and requirements adjust as we learn. That fluidity fosters innovation. 

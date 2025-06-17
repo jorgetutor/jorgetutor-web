@@ -2,29 +2,29 @@
 const today = new Date();
 ---
 
-<footer>
+<footer class="py-8 px-4 pb-24 text-center bg-[linear-gradient(var(--gray-gradient))] text-[rgb(var(--gray))]">
 	&copy; {today.getFullYear()} Jorge Tutor. All rights reserved.
-	<div class="social-links">
-		<a href="https://www.linkedin.com/in/jorgetutor/" target="_blank">
+        <div class="social-links flex justify-center gap-4 mt-4">
+                <a href="https://www.linkedin.com/in/jorgetutor/" target="_blank" class="no-underline text-[rgb(var(--gray))] hover:text-[rgb(var(--gray-dark))]">
 			<span class="sr-only">Follow me on LinkedIn</span>
 			<svg width="32px" height="32px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
   				<path fill="currentColor" d="M17.0391667,17.0433333 L14.0775,17.0433333 L14.0775,12.4025 C14.0775,11.2958333 14.055,9.87166667 12.5341667,9.87166667 C10.99,9.87166667 10.7541667,11.0758333 10.7541667,12.3208333 L10.7541667,17.0433333 L7.7925,17.0433333 L7.7925,7.5 L10.6375,7.5 L10.6375,8.80083333 L10.6758333,8.80083333 C11.0733333,8.05083333 12.04,7.25916667 13.4841667,7.25916667 C16.485,7.25916667 17.04,9.23416667 17.04,11.805 L17.04,17.0433333 L17.0391667,17.0433333 Z M4.4475,6.19416667 C3.49416667,6.19416667 2.72833333,5.4225 2.72833333,4.47333333 C2.72833333,3.525 3.495,2.75416667 4.4475,2.75416667 C5.3975,2.75416667 6.1675,3.525 6.1675,4.47333333 C6.1675,5.4225 5.39666667,6.19416667 4.4475,6.19416667 Z M5.9325,17.0433333 L2.9625,17.0433333 L2.9625,7.5 L5.9325,7.5 L5.9325,17.0433333 Z M18.5208333,0 L1.47583333,0 C0.66,0 0,0.645 0,1.44083333 L0,18.5591667 C0,19.3558333 0.66,20 1.47583333,20 L18.5183333,20 C19.3333333,20 20,19.3558333 20,18.5591667 L20,1.44083333 C20,0.645 19.3333333,0 18.5183333,0 L18.5208333,0 Z"/>
 			</svg>
 		</a>
 
-		<a href="https://substack.com/@jorgetutor">
+                <a href="https://substack.com/@jorgetutor" class="no-underline text-[rgb(var(--gray))] hover:text-[rgb(var(--gray-dark))]">
 			<span class="sr-only">Follow me on Substack</span>
 			<svg role="img" width="32px" height="32px" viewBox="0 0 21 24" fill="currentColor" stroke-width="1.8" stroke="none" xmlns="http://www.w3.org/2000/svg" class="nav-logo-icon"><g><path d="M20.9991 5.40625H0V8.24275H20.9991V5.40625Z"></path><path d="M0 10.8125V24.0004L10.4991 18.1107L21 24.0004V10.8125H0Z"></path><path d="M20.9991 0H0V2.83603H20.9991V0Z"></path></g>
 			</svg>
 		</a>
 
-		<a href="https://twitter.com/jltutor" target="_blank">
+                <a href="https://twitter.com/jltutor" target="_blank" class="no-underline text-[rgb(var(--gray))] hover:text-[rgb(var(--gray-dark))]">
 			<span class="sr-only">Follow me on Twitter</span>
 			<svg width="32px" height="32px" viewBox="0 0 24 24">
 			<path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
 			</svg>
 		</a>
-		<a href="https://github.com/jorgetutor" target="_blank">
+                <a href="https://github.com/jorgetutor" target="_blank" class="no-underline text-[rgb(var(--gray))] hover:text-[rgb(var(--gray-dark))]">
 			<span class="sr-only">GitHub repositories</span>
 			<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32" astro-icon="social/github">
 				<path
@@ -34,7 +34,7 @@ const today = new Date();
 			</svg>
 		</a>
 
-		<a href="https://www.drupal.org/u/gedur">
+                <a href="https://www.drupal.org/u/gedur" class="no-underline text-[rgb(var(--gray))] hover:text-[rgb(var(--gray-dark))]">
 			<span class="sr-only">Drupal repositories</span>
 			<svg width="32px" height="32px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
 				<path 
@@ -48,24 +48,3 @@ const today = new Date();
 		
 	</div>
 </footer>
-<style>
-	footer {
-		padding: 2em 1em 6em 1em;
-		background: linear-gradient(var(--gray-gradient)) no-repeat;
-		color: rgb(var(--gray));
-		text-align: center;
-	}
-	.social-links {
-		display: flex;
-		justify-content: center;
-		gap: 1em;
-		margin-top: 1em;
-	}
-	.social-links a {
-		text-decoration: none;
-		color: rgb(var(--gray));
-	}
-	.social-links a:hover {
-		color: rgb(var(--gray-dark));
-	}
-</style>

@@ -1,7 +1,7 @@
 ---
 title: "I wish more meetings were like those of the rebels in Star Wars"
 pubDate: 2025-05-04
-description: ""
+description: "May the 4th be with you!"
 tags: ['ProjectManagement', 'Agile', 'SoftwareDevelopment', 'ProductManagement', 'Scrum']
 heroImage: ../../assets/jorgetutor-sketch-starwars-rebels-meeting.png
 ---

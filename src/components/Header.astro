@@ -3,17 +3,40 @@ import { Image } from 'astro:assets';
 import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
 import LogoImg from '../assets/jorgetutor-comic-head.svg';
+import IconPhoto from '../assets/jorgetutor-square.jpg';
 ---
 
-<header class="m-0 px-4 bg-white shadow-[0_2px_8px_rgba(var(--black),0.05)]">
-        <nav class="flex items-center justify-between">
-                <div class="logo m-0 text-base">
-                        <a href="/" class="font-bold no-underline flex items-center gap-2"><Image src={LogoImg} alt="Jorge Tutor Comic" width="42" height="42" /> {SITE_TITLE}</a>
+
+
+    <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf3] px-10 py-3">
+      <div class="flex items-center gap-4 text-[#0e141b]">
+        <div
+          class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10 bg-color-white border border-solid border-gray-300"
+          style={`background-image: url(${IconPhoto.src});background-color: white;`}
+        ></div>
+        <a class="text-[#0e141b] text-lg font-bold leading-tight tracking-[-0.015em]" href="/">Jorge Tutor</a>
+      </div>
+      <div class="flex flex-1 justify-end gap-8">
+        <div class="flex items-center gap-9">
+          <HeaderLink href="/" class="hidden md:block">Home</HeaderLink>
+          <HeaderLink href="/blog">Blog</HeaderLink>
+          <HeaderLink href="/about">About</HeaderLink>
+        </div>
+        <button
+          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#1978e5] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
+        >
+          <span class="truncate">Contact me</span>
+        </button>
+      </div>
+    </header>
+    {Astro.url.pathname === '/' && (
+        <section class="px-40 flex flex-col justify-center items-center py-5 min-h-screen bg-gradient-to-b from-[#f6f6f6] to-[#e8e8e8]">
+                <div class="max-w-[1280px] align-middle">
+                        <h1 class="text-[#0e141b] tracking-light text-[46px] font-bold leading-tight px-4 text-center pb-3 pt-6">I help tech leaders and managers<br/> lead with confidence</h1>
+                        <p class="text-[#0e141b] leading-normal pb-3 pt-1 px-4 text-center font-extralight text-3xl">
+                        For over 15 years, I’ve been in the trenches, leading complex online projects.
+                        </p>
+
                 </div>
-                <div class="internal-links flex">
-                        <HeaderLink href="/">Home</HeaderLink>
-                        <HeaderLink href="/blog">Blog</HeaderLink>
-                        <HeaderLink href="/about">About</HeaderLink>
-                </div>
-        </nav>
-</header>
+        </section>
+     )}

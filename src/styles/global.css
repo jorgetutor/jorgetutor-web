@@ -16,7 +16,7 @@
       0 16px 32px rgba(var(--gray), 33%);
   }
   @font-face {
-    font-family: 'Atkinson'; /*style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'*/
+    font-family: 'Atkinson';
     src: url('/fonts/atkinson-regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
@@ -30,7 +30,7 @@
     font-display: swap;
   }
   body {
-    font-family: "Noto Sans", 'Atkinson', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     margin: 0;
     padding: 0;
     text-align: left;

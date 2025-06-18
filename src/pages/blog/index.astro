@@ -19,28 +19,36 @@ const posts = (await getCollection('blog')).sort(
         </head>
         <body>
                 <Header />
-                <main class="max-w-[1024px]">
-                        <h1>Jorge Tutor's Blog</h1>
-                        <p class="text-[rgb(var(--gray))]">Latest posts</p>
+                <main class="max-w-[1280px]">
+                        <h1>Blog Posts</h1>
+                        <p class="mb-10">Welcome. Here you'll find a collection of thoughts, strategies, and insights on modern tech leadership. These posts are designed to help you solve challenges, grow your skills, and guide your teams with clarity and confidence.</p>
                         <section>
-                                <ul class="flex flex-wrap gap-8 list-none m-0 p-0">
+                                <ul class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] list-none m-0 p-5 gap-10">
+
                                         {
                                                 posts.map((post) => (
-                                                        <li class="w-[calc(50%-1rem)] first:w-full first:mb-4 first:text-center p-10">
-                                                                <a href={`/blog/${post.id}/`} class="block hover:text-[var(--accent)]">
+                                                        <li class="">
+                                                                
+
                                                                         {post.data.heroImage && (
+                                                                                <a href={`/blog/${post.id}/`} class="block mb-2 hover:shadow-[var(--box-shadow)]">
                                                                                 <Image
                                                                                         width={720}
                                                                                         height={360}
                                                                                         src={post.data.heroImage}
                                                                                         alt=""
-                                                                                        class="mb-2 rounded-lg w-full hover:shadow-[var(--box-shadow)]"
+                                                                                        class="mb-2 rounded-lg w-full border border-solid border-gray-100 hover:shadow-[var(--box-shadow)]"
+                                                                                        loading="lazy"
                                                                                 />
+                                                                                </a>
                                                                         )}
-                                                                        <h2 class="m-0 text-[rgb(var(--black))] leading-none text-2xl">
+                                                                        <a href={`/blog/${post.id}/`} class="block hover:text-[var(--accent)]">
+                                                                                <h2 class="m-0 text-[rgb(var(--black))] text-2xl">
                                                                                 {post.data.title}
-                                                                        </h2>
-                                                                        <p class="m-0 text-[rgb(var(--gray))]">
+                                                                                </h2>
+                                                                        </a>
+                                                                        <p class="mt-2 font-light text-[0.8em]">{post.data.description}</p>
+                                                                        <p class="m-0 text-[rgb(var(--gray))] font-light text-sm">
                                                                                 <FormattedDate date={post.data.pubDate} />
                                                                         </p>
                                                                 </a>

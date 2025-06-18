@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --accent: #2337ff;
+    --accent: #1978e5;
     --accent-dark: #000d8a;
     --black: 15, 18, 25;
     --gray: 96, 115, 159;
@@ -53,24 +53,28 @@
   h4,
   h5,
   h6 {
-    margin: 1.5rem 0 1rem 0;
+    margin: 2em 0 1em 0;
     color: rgb(var(--black));
     line-height: 1.2;
+    font-weight: 700;
   }
   h1 {
-    font-size: 3.052em;
+    font-size: 2.552em;
   }
   h2 {
-    font-size: 2.441em;
+    font-size: 1.841em;
   }
   h3 {
-    font-size: 1.953em;
+    font-size: 1.453em;
+    font-weight: 300;
   }
   h4 {
-    font-size: 1.563em;
+    font-size: 1.263em;
+    font-weight: 200;
   }
   h5 {
-    font-size: 1.25em;
+    font-size: 1.15em;
+
   }
   strong,
   b {
@@ -144,5 +148,13 @@
     clip: rect(1px, 1px, 1px, 1px);
     clip-path: inset(50%);
     white-space: nowrap;
+  }
+  ul {
+    list-style-type: disc;
+    margin-left: 1em;
+  }
+
+  ul li {
+    margin-bottom: 0.5em;
   }
 }

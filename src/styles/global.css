@@ -42,10 +42,14 @@
     font-size: 20px;
     line-height: 1.7;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   main {
     max-width: 1024px;
     margin: auto;
     padding: 1em 1em;
+    scroll-margin-top: 3em;
   }
   h1,
   h2,

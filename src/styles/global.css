@@ -170,4 +170,7 @@
   ol li {
     margin-bottom: 0.5em;
   }
+  li::marker {
+    color: var(--accent);
+  }
 }

@@ -168,7 +168,7 @@
 
   ul li,
   ol li {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
   }
   li::marker {
     color: var(--accent);

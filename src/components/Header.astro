@@ -6,15 +6,15 @@ import LogoImg from '../assets/jorgetutor-comic-head.svg';
 import IconPhoto from '../assets/jorgetutor-square.jpg';
 ---
 
-<header class="fixed top-0 left-0 right-0 z-20 flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf3] px-10 py-3 bg-white">
-  <div class="flex items-center gap-4 text-[#0e141b]">
+<header class="fixed top-0 left-0 right-0 z-20 flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf3] px-2 sm:px-10 py-3 bg-white">
+  <div class="flex items-center gap-4 text-[#1b0f0e]">
     <div
       class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10 bg-color-white border border-solid border-gray-300"
       style={`background-image: url(${IconPhoto.src});background-color: white;`}
     ></div>
     <a class="text-[#0e141b] text-lg font-bold leading-tight tracking-[-0.015em]" href="/">Jorge Tutor</a>
   </div>
-  <div class="flex flex-1 justify-end gap-8">
+  <div class="flex flex-1 justify-end gap-5 md:gap-8">
     <div class="flex items-center gap-9">
       <HeaderLink href="/" class="hidden md:block">Home</HeaderLink>
       <HeaderLink href="/blog">Blog</HeaderLink>
@@ -29,8 +29,8 @@ import IconPhoto from '../assets/jorgetutor-square.jpg';
 {Astro.url.pathname === '/' && (
     <section class="px-10 flex flex-col justify-center items-center py-5 min-h-screen border-b border-solid border-b-[#e7edf3]">
         <div class="max-w-[1280px] align-middle w-full">
-            <h1 class="text-[#0e141b] text-[28px] md:text-[46px] font-bold break-inside-avoid text-center mb-3">I help tech leaders and managers<br/> lead with confidence</h1>
-            <p class="text-[#0e141b] leading-normal text-center font-extralight text-[16px] md:text-[32px]">
+            <h1 class="text-[#0e141b] text-[40px] md:text-[46px] font-bold break-inside-avoid text-center mb-3 mt-0">I help tech leaders and managers<br/> lead with confidence</h1>
+            <p class="text-[#0e141b] leading-normal text-center font-extralight text-[24px] md:text-[32px]">
             Over 15 years in the trenches, leading complex online projects.
             </p>
         </div>

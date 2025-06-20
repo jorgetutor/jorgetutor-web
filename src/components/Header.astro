@@ -1,7 +1,6 @@
 ---
 import { Image } from 'astro:assets';
 import HeaderLink from './HeaderLink.astro';
-import { SITE_TITLE } from '../consts';
 import LogoImg from '../assets/jorgetutor-comic-head.svg';
 import IconPhoto from '../assets/jorgetutor-square.jpg';
 ---
@@ -29,7 +28,7 @@ import IconPhoto from '../assets/jorgetutor-square.jpg';
 {Astro.url.pathname === '/' && (
     <section class="px-10 flex flex-col justify-center items-center py-5 min-h-screen border-b border-solid border-b-[#e7edf3]">
         <div class="max-w-[1280px] align-middle w-full">
-            <h1 class="text-[#0e141b] text-[40px] md:text-[46px] font-bold break-inside-avoid text-center mb-3 mt-0">I help <span class="bg-black text-white px-3">leaders</span> on the tech sector<br/> to manage with confidence</h1>
+            <h1 class="text-[#0e141b] text-[32px] md:text-[46px] leading-350 break-inside-avoid text-center mb-3 mt-0 font-extrabold">I make <br class="lg:hidden"/><span class="bg-black text-white px-3">tech management</span> more understandable, <br class="hidden lg:block"/> so you can <span class="text-[var(--accent)]">lead with confidence</span></h1>
             <p class="text-[#0e141b] leading-normal text-center font-extralight text-[24px] md:text-[32px]">
             Over 15 years in the trenches, leading complex digital projects.
             </p>

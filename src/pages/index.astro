@@ -21,13 +21,29 @@ const posts = (await getCollection('blog')).sort(
   </head>
   <body>
     <Header />
+
+    <!-- Hero -->
+    <section class="px-10 flex flex-col justify-center items-center py-5 min-h-screen bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
+      <div class="max-w-[1280px] align-middle w-full">
+        <h1 class="text-[32px] md:text-[46px] leading-snug md:leading-relaxed break-inside-avoid text-center mb-3 mt-0 font-extrabold">I make <br class="lg:hidden"/><span class="bg-black text-white px-3">tech management</span> more understandable, <br class="hidden lg:block"/> so you can <br class="lg:hidden"/><span class="text-[var(--accent)]">lead with confidence</span></h1>
+        <p class="text-[#0e141b] leading-normal text-center font-extralight text-[24px] md:text-[32px]">
+        Over 15 years in the trenches, leading complex digital projects.
+        </p>
+      </div>
+      <a href="#main" aria-label="Scroll to main content" class="mt-8 animate-bounce block">
+        <svg class="w-8 h-8 text-[var(--accent)]" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5303 16.2803C12.2374 16.5732 11.7626 16.5732 11.4697 16.2803L3.96967 8.78033C3.67678 8.48744 3.67678 8.01256 3.96967 7.71967C4.26256 7.42678 4.73744 7.42678 5.03033 7.71967L12 14.6893L18.9697 7.71967C19.2626 7.42678 19.7374 7.42678 20.0303 7.71967C20.3232 8.01256 20.3232 8.48744 20.0303 8.78033L12.5303 16.2803Z" />
+        </svg>
+      </a>
+    </section>
+
     <main id="main" class="max-w-[1920px] px-0 mx-auto">
 
       <!-- About Me Section -->
       <section>
-        <div class="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-screen-2xl px-1 sm:px-6 lg:px-8 py-8 ">
           <div class="grid grid-cols-1 gap-4 lg:grid-cols-2">
-            <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+            <div class="p-2 md:p-12 lg:px-16 lg:py-24">
               <div class="mx-auto max-w-xl">
                 <h2 class="text-2xl font-bold md:text-3xl">
                   Hi! I'm Jorge Tutor
@@ -70,7 +86,7 @@ const posts = (await getCollection('blog')).sort(
       </section>
 
       <!-- Newsletter CTA Section -->
-      <section id="newsletter" class="py-12 md:py-16 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)]">
+      <section id="newsletter" class="py-12 md:py-16 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
         <div class="container mx-auto px-6 text-center">
             <div class="fade-in-up">
                 <h2 class="text-3xl md:text-4xl font-bold text-orange-600">Join My Weekly Newsletter</h2>
@@ -92,17 +108,17 @@ const posts = (await getCollection('blog')).sort(
 
       <!-- The Path -->
       <section id="services" class="md:text-center bg-gradient-to-b from-gray-100  to-white md:pt-10">
-        <h2 class="text-[var(--accent)] inline-block text-5xl leading-snug">
+        <h2 class="text-[var(--accent)] inline-block text-2x1 md:text-5xl md:text-center leading-normal md:leading-relaxed">
           A Practical Path To<br> Confident <span class="bg-[var(--accent)] text-white px-3">Leadership</span>
         </h2>
         <p class="max-w-screen-xl mx-auto leading-loose font-light text-2xl">You don’t need to be a coder to be a great tech leader.<br /> You need the clarity to ask the right questions and the systems to build a high-performing team.</p>
       </section>
       
       <!-- Services -->
-      <section class="py-5 ">
-        <div class="container mx-auto px-6">
+      <section class="py-3 md:py-5">
+        <div class="container mx-auto md:px-6">
           <div class="grid lg:grid-cols-2 gap-16 items-center">
-            <div class="">
+            <div>
               <p class="font-extralight">Here is how I can <strong class="font-bold">help you</strong> on your journey:</p>
               <h3 class="text-[#111418] text-3x1 font-bold leading-tight tracking-[-0.015em] pb-3">Comprehensive Coaching Programs</h3>
               <p class="text-slate-600 text-lg mb-10">We offer a range of coaching services tailored to your specific needs and career aspirations. Whether you're looking to advance in your current role, transition to a new field, or enhance your leadership skills, we have a program for you.</p>
@@ -151,7 +167,7 @@ const posts = (await getCollection('blog')).sort(
 
       <!-- Testimonials -->
       <section id="testimonials" class="py-16 bg-gradient-to-b to-gray-100 from-white pt-3">
-        <div class="container mx-auto px-6">
+        <div class="container mx-auto md:px-6">
           <h2 class="text-2xl text-gray-500 font-light">Testimonials</h2>
           <div class="mt-3 grid lg:grid-cols-3 lg:gap-4 text-base font-light">
             <div class="mb-5">
@@ -172,7 +188,7 @@ const posts = (await getCollection('blog')).sort(
 
       <!-- Featured Sessions -->
       <section>
-        <div class="container mx-auto px-6">
+        <div class="container mx-auto md:px-6">
           <h2 class="text-4xl text-gray-500 font-light">Professional Trajectory</h2>
           <p>If you are interested, you will find more complete information about achievements and certifications on my <a href="https://www.linkedin.com/in/jorgetutor/">LinkedIn profile</a>.</p>
 
@@ -180,7 +196,7 @@ const posts = (await getCollection('blog')).sort(
         
           <p class="mb-2 max-w-screen-lg font-light">I have been fortunate to speak at several <strong>international conferences</strong>, sharing my insights on software development, project management, and team leadership. Here are some of my featured sessions:</p>
   
-          <ul class="grid lg:grid-cols-3 lg:gap-x-10 lg:gap-y-5 p-5 text-base font-light">
+          <ul class="grid lg:grid-cols-3 lg:gap-x-10 lg:gap-y-5 p-3 md:p-5 text-base font-light">
             <li>Effective Scope, Budget &amp; Change Request Management in Software Development <a href="https://www.youtube.com/watch?v=KDJc4_YFL9c&amp;t=265s">Video</a> (<em>Spanish</em>) | <a href="https://docs.google.com/presentation/d/1iJHidM27ti31gj7j80hIw9OX2Fem-AlBr5E2l7WTeiM/preview">Slides</a> - DrupalCamp 2024 - Benidorm, Spain.</li>
             <li>Exploring Agile Contracts: Maximizing Collaboration and Value in Client Relationships <a href="https://docs.google.com/presentation/d/1TnTD2RI1CtO-StSqy8irZSyMceU3OJMqWeaaOIL--Lg/preview">Slides</a> - DrupalCon Europe 2024 - Barcelona, Spain.</li>
             <li>Strategies for Overcoming Common Software Development Challenges - A Management Perspective <a href="https://www.youtube.com/watch?v=6gMDCBqNSEk">Video</a> | <a href="https://docs.google.com/presentation/d/16wvKhUOWJHfmvxpg4CsNLqe2pSOhH14lQt90x7Dg_fA/preview">Slides</a> - DrupalCon Europe 2023 - Lille, France.</li>
@@ -194,10 +210,9 @@ const posts = (await getCollection('blog')).sort(
       </section>
 
       <!-- Featured Articles -->
-      <section>
-        <div class="container mx-auto px-6">
-          <h2 class="text-4xl text-gray-500 font-light text-center">Latests Blog posts</h2>
-          <ul class="max-w-screen-lg mx-auto grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] list-none m-0 p-5 gap-10">
+      <section class="container mx-auto md:px-6 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
+          <h2 class="text-4xl text-gray-500 font-light md:text-center">Latests Blog posts</h2>
+          <ul class="max-w-screen-lg mx-auto grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] list-none m-0 md:p-5 gap-10">
             {posts.slice(0,6).map((post) => (
               <li class="">
                 {post.data.heroImage && (
@@ -207,7 +222,7 @@ const posts = (await getCollection('blog')).sort(
                           height={360}
                           src={post.data.heroImage}
                           alt=""
-                          class="mb-2 rounded-lg w-full border border-solid border-gray-100 hover:shadow-[var(--box-shadow)]"
+                          class="mb-3 rounded-lg w-full border border-solid border-gray-200 hover:shadow-black/10 hover:shadow-lg"
                           loading="lazy"
                   />
                   </a>
@@ -224,8 +239,6 @@ const posts = (await getCollection('blog')).sort(
               </li>
             ))}
             </ul>
-
-        </div>
       </section>
 
 

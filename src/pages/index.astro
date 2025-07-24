@@ -71,7 +71,7 @@ const posts = (await getCollection('blog')).sort(
         <p class="py-5 font-extralight text-2xl text-center">It’s a world of hidden challenges that can undermine even the most capable leaders.</p>
         <div class="max-w-screen-xl mx-auto">
           <p>Do you ever feel that:</p>
-          <ul class="list-disc pl-5 grid sm:grid-cols-2 gap-x-14 sm:gap-y-2">
+          <ul class="list-disc p-2 md:p-5 grid sm:grid-cols-2 gap-x-14 sm:gap-y-2">
             <li>You’re not sure how to <strong>effectively lead a team</strong> of technical experts, even though you have strong management skills?</li>
             <li>You <strong>struggle to communicate</strong> with clients about technical issues, timelines, and budgets, leading to misunderstandings and frustration?</li>
             <li>You feel overwhelmed by the rapid pace of technological change and unsure how to keep your team <strong>aligned with business goals</strong>?</li>
@@ -197,20 +197,41 @@ const posts = (await getCollection('blog')).sort(
           <p class="mb-2 max-w-screen-lg font-light">I have been fortunate to speak at several <strong>international conferences</strong>, sharing my insights on software development, project management, and team leadership. Here are some of my featured sessions:</p>
   
           <ul class="grid lg:grid-cols-3 lg:gap-x-10 lg:gap-y-5 p-3 md:p-5 text-base font-light">
-            <li>Effective Scope, Budget &amp; Change Request Management in Software Development <a href="https://www.youtube.com/watch?v=KDJc4_YFL9c&amp;t=265s">Video</a> (<em>Spanish</em>) | <a href="https://docs.google.com/presentation/d/1iJHidM27ti31gj7j80hIw9OX2Fem-AlBr5E2l7WTeiM/preview">Slides</a> - DrupalCamp 2024 - Benidorm, Spain.</li>
-            <li>Exploring Agile Contracts: Maximizing Collaboration and Value in Client Relationships <a href="https://docs.google.com/presentation/d/1TnTD2RI1CtO-StSqy8irZSyMceU3OJMqWeaaOIL--Lg/preview">Slides</a> - DrupalCon Europe 2024 - Barcelona, Spain.</li>
-            <li>Strategies for Overcoming Common Software Development Challenges - A Management Perspective <a href="https://www.youtube.com/watch?v=6gMDCBqNSEk">Video</a> | <a href="https://docs.google.com/presentation/d/16wvKhUOWJHfmvxpg4CsNLqe2pSOhH14lQt90x7Dg_fA/preview">Slides</a> - DrupalCon Europe 2023 - Lille, France.</li>
-            <li>Managing Complexity: Best Practices for Software Development Project Managers <a href="https://www.youtube.com/watch?v=eWWVIsDYpTw">Video</a> | <a href="https://docs.google.com/presentation/d/18mchru70PgRSYZP9Wk6xuz6JQIneVImFUtWmj3obeiU/preview">Slides</a> - DrupalCamp 2023 - Sevilla, Spain.</li>
-            <li>Self-Management in remote environments <a href="https://www.youtube.com/watch?v=0zax_kubN10">Video</a> | <a href="https://docs.google.com/presentation/d/1hRfan3ka7HpRg75bKDCYWEgdR7CcRMLn9GdDMbRBXw4/edit">Slides</a> - DrupalCon Europe 2020 - Barcelona, Spain.</li>
-            <li>Diving into Peopleware <a href="https://www.youtube.com/watch?v=ze6zgpKOugQ">Video</a> | <a href="https://jorgetutor.github.io/2019-drupaldevdays-peopleware/#/">Slides</a> - DrupalDevDays 2019 - Transylvania, Romania.</li>
-            <li>BDD: Behaviour Driven Development <a href="https://www.youtube.com/watch?v=01mK_1Fn9Ts">Video</a> | <a href="https://jorgetutor.github.io/bdd-drupalcampes-2017/#/">Slides</a> - DrupalCamp 2017 - Madrid, Spain.</li>
+            <li>
+              Effective Scope, Budget &amp; Change Request Management in Software Development - DrupalCamp 2024 - Benidorm, Spain. 
+              <br /><a href="https://www.youtube.com/watch?v=KDJc4_YFL9c&amp;t=265s">Video</a> (<em>Spanish</em>) | <a href="https://docs.google.com/presentation/d/1iJHidM27ti31gj7j80hIw9OX2Fem-AlBr5E2l7WTeiM/preview">Slides</a> 
+            </li>
+            <li>
+              Exploring Agile Contracts: Maximizing Collaboration and Value in Client Relationships  - DrupalCon Europe 2024 - Barcelona, Spain.
+              <br /><a href="https://docs.google.com/presentation/d/1TnTD2RI1CtO-StSqy8irZSyMceU3OJMqWeaaOIL--Lg/preview">Slides</a>
+            </li>
+            <li>
+              Strategies for Overcoming Common Software Development Challenges - A Management Perspective - DrupalCon Europe 2023 - Lille, France.
+              <br /><a href="https://www.youtube.com/watch?v=6gMDCBqNSEk">Video</a> | <a href="https://docs.google.com/presentation/d/16wvKhUOWJHfmvxpg4CsNLqe2pSOhH14lQt90x7Dg_fA/preview">Slides</a>
+            </li>
+            <li>
+              Managing Complexity: Best Practices for Software Development Project Managers  - DrupalCamp 2023 - Sevilla, Spain.
+              <br /><a href="https://www.youtube.com/watch?v=eWWVIsDYpTw">Video</a> | <a href="https://docs.google.com/presentation/d/18mchru70PgRSYZP9Wk6xuz6JQIneVImFUtWmj3obeiU/preview">Slides</a>
+            </li>
+            <li>
+              Self-Management in remote environments - DrupalCon Europe 2020 - Barcelona, Spain.
+              <br /><a href="https://www.youtube.com/watch?v=0zax_kubN10">Video</a> | <a href="https://docs.google.com/presentation/d/1hRfan3ka7HpRg75bKDCYWEgdR7CcRMLn9GdDMbRBXw4/edit">Slides</a>
+            </li>
+            <li>
+              Diving into Peopleware - DrupalDevDays 2019 - Transylvania, Romania.
+              <br /><a href="https://www.youtube.com/watch?v=ze6zgpKOugQ">Video</a> | <a href="https://jorgetutor.github.io/2019-drupaldevdays-peopleware/#/">Slides</a>
+            </li>
+            <li>
+              BDD: Behaviour Driven Development - DrupalCamp 2017 - Madrid, Spain.
+              <br /><a href="https://www.youtube.com/watch?v=01mK_1Fn9Ts">Video</a> | <a href="https://jorgetutor.github.io/bdd-drupalcampes-2017/#/">Slides</a>
+            </li>
           </ul>
 
         </div>
       </section>
 
       <!-- Featured Articles -->
-      <section class="container mx-auto md:px-6 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
+      <section class="container pb-6 mx-auto md:px-6 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
           <h2 class="text-4xl text-gray-500 font-light md:text-center">Latests Blog posts</h2>
           <ul class="max-w-screen-lg mx-auto grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] list-none m-0 md:p-5 gap-10">
             {posts.slice(0,6).map((post) => (

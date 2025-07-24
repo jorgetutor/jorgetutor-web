@@ -14,50 +14,47 @@ const posts = (await getCollection('blog')).sort(
 
 <!doctype html>
 <html lang="en">
-        <head>
-                <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-        </head>
-        <body>
-                <Header />
-                <main class="max-w-[1280px]">
-                        <h1>Blog Posts</h1>
-                        <p class="mb-10">Welcome. Here you'll find a collection of thoughts, strategies, and insights on modern tech leadership. These posts are designed to help you solve challenges, grow your skills, and guide your teams with clarity and confidence.</p>
-                        <section>
-                                <ul class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] list-none m-0 p-5 gap-10">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main class="max-w-[1280px] p-5 my-8 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
+      <h1>Blog Posts</h1>
+      <p class="mb-10">Welcome. Here you'll find a collection of thoughts, strategies, and insights on modern tech leadership. These posts are designed to help you solve challenges, grow your skills, and guide your teams with clarity and confidence.</p>
+      <section class="m-0 p-0">
+        <ul class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] list-none m-0 p-0 md:gap-10 ">
+          {
+            posts.map((post) => (
+              <li class="">
+                {post.data.heroImage && (
+                <a href={`/blog/${post.id}/`} class="block mb-2 hover:shadow-[var(--box-shadow)]">
+                <Image
+                  width={720}
+                  height={360}
+                  src={post.data.heroImage}
+                  alt=""
+                  class="mb-2 rounded-lg w-full border border-solid border-gray-200  hover:shadow-black/10 hover:shadow-lg"
+                  loading="lazy"
+                />
+                </a>
+                )}
 
-                                        {
-                                                posts.map((post) => (
-                                                        <li class="">
-                                                                
-
-                                                                        {post.data.heroImage && (
-                                                                                <a href={`/blog/${post.id}/`} class="block mb-2 hover:shadow-[var(--box-shadow)]">
-                                                                                <Image
-                                                                                        width={720}
-                                                                                        height={360}
-                                                                                        src={post.data.heroImage}
-                                                                                        alt=""
-                                                                                        class="mb-2 rounded-lg w-full border border-solid border-gray-100 hover:shadow-[var(--box-shadow)]"
-                                                                                        loading="lazy"
-                                                                                />
-                                                                                </a>
-                                                                        )}
-                                                                        <a href={`/blog/${post.id}/`} class="block hover:text-[var(--accent)]">
-                                                                                <h2 class="m-0 text-[rgb(var(--black))] text-2xl">
-                                                                                {post.data.title}
-                                                                                </h2>
-                                                                        </a>
-                                                                        <p class="mt-2 font-light text-[0.8em]">{post.data.description}</p>
-                                                                        <p class="m-0 text-[rgb(var(--gray))] font-light text-sm">
-                                                                                <FormattedDate date={post.data.pubDate} />
-                                                                        </p>
-                                                                </a>
-                                                        </li>
-                                                ))
-                                        }
-                                </ul>
-                        </section>
-                </main>
-                <Footer />
-        </body>
+                <a href={`/blog/${post.id}/`} class="block hover:text-[var(--accent)]">
+                <h2 class="m-0 text-[rgb(var(--black))] text-2xl">
+                {post.data.title}
+                </h2>
+                </a>
+                <p class="mt-2 font-light text-[0.8em]">{post.data.description}</p>
+                <p class="m-0 text-[rgb(var(--gray))] font-light text-sm">
+                  <FormattedDate date={post.data.pubDate} />
+                </p>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    </main>
+    <Footer />
+  </body>
 </html>

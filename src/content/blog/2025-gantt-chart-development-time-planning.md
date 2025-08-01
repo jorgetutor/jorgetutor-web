@@ -1,5 +1,5 @@
 ---
-title: "Beyond the Gantt Chart: A Call for Respect in Project Planning Calculation"
+title: "Beyond the Gantt Chart: A Call for Respect in Project Planning"
 pubDate: 2025-08-01
 description: "Are you treating your developers like magicians? See how dev time is miscalculated in Gantt charts and why this flawed approach leads projects to failure."
 tags: ['ProjectManagement', 'Agile', 'SoftwareDevelopment', 'ProductManagement', 'Waterfall', 'Overwork', 'planning']
@@ -28,7 +28,7 @@ This broken process pushes teams to their limits, **expecting them to overwork**
 
 But there is a better way forward. It begins with true teamwork. Instead of a relay race where one team hands off a plan to the next, we need to work like a **cohesive unit** from day one. When developers, designers, and clients are in the *same* room, talking every day, they spot the "traffic jams" and "detours" early. Problems are solved in hours, not weeks, because everyone is on the journey together.
 
-## Fair Contracts, the foundation for succcess
+## Fair Contracts, the foundation for success
 
 This teamwork must be backed by smarter, fairer contracts. For managers and clients, this is how you build a foundation for success:
 

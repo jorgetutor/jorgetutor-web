@@ -233,25 +233,26 @@ const posts = (await getCollection('blog')).sort(
       <!-- Featured Articles -->
       <section class="container pb-6 mx-auto md:px-6 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
           <h2 class="text-4xl text-gray-500 font-light md:text-center">Latests Blog posts</h2>
-          <ul class="max-w-screen-lg mx-auto grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] list-none m-0 md:p-5 gap-10">
-            {posts.slice(0,6).map((post) => (
-              <li class="">
-                {post.data.heroImage && (
-                  <a href={`/blog/${post.id}/`} class="block mb-2 hover:shadow-[var(--box-shadow)]">
+          <ul class="max-w-screen-xl mx-auto grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] list-none m-0 md:p-5 gap-10">
+            {posts.slice(0,3).map((post) => (
+              <li class="relative bg-white rounded-lg hover:shadow-md border p-5 hover:shadow-gray-300 transition-shadow duration-300 ease-in-out">
+
+                {post.data.heroImage && (      
                   <Image
-                          width={720}
-                          height={360}
-                          src={post.data.heroImage}
-                          alt=""
-                          class="mb-3 rounded-lg w-full border border-solid border-gray-200 hover:shadow-black/10 hover:shadow-lg"
-                          loading="lazy"
+                    width={720}
+                    height={360}
+                    src={post.data.heroImage}
+                    alt=""
+                    class="mb-3 rounded-lg"
+                    loading="lazy"
                   />
-                  </a>
                 )}
+
                 <a href={`/blog/${post.id}/`} class="block hover:text-[var(--accent)]">
-                  <h2 class="m-0 text-[rgb(var(--black))] text-2xl">
+                  <h2 class="m-0 text-[rgb(var(--black))] text-2xl mb-3">
                   {post.data.title}
                   </h2>
+                  <span class="absolute inset-0" aria-hidden="true"></span>
                 </a>
                 <p class="mt-2 font-light text-[0.8em]">{post.data.description}</p>
                 <p class="m-0 text-[rgb(var(--gray))] font-light text-sm">

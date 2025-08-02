@@ -1,0 +1,80 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { getCollection } from 'astro:content';
+import FormattedDate from '../components/FormattedDate.astro';
+import { Image } from 'astro:assets';
+
+const posts = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={"404 | " + SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+
+    <!-- Hero -->
+    <section class="mt-5 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
+      <div class="py-10 max-w-screen-lg align-middle mx-auto">
+        <h1 class="text-[32px] md:text-[46px] leading-snug md:leading-relaxed break-inside-avoid text-center mb-3 mt-0 font-extrabold">
+          <span class="bg-black text-white px-3">404</span>
+          Not Found 
+        </h1>
+        <p class="text-[#0e141b] leading-normal text-center font-extralight text-[16px] md:text-[28px]">
+        Maybe this page moved? Got deleted? Is hiding out in quarantine? Never existed in the first place?</p>
+        <p class="text-[#0e141b] leading-normal text-center font-extralight text-[16px] md:text-[28px]"> Let's go <a href="/" class="text-[var(--accent)] hover:underline">home</a> and try from there.
+        </p>
+      </div>
+    </section>
+    
+    <main id="main" class="max-w-[1920px] px-0 mx-auto">
+
+      <!-- Featured Articles -->
+      <section class="container pb-6 mx-auto md:px-6 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
+        <h2 class="text-4xl text-gray-500 font-light md:text-center">Latests Blog posts</h2>
+        
+        <ul class="max-w-screen-xl mx-auto grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] list-none m-0 md:p-5 gap-10">
+            {posts.slice(0,3).map((post) => (
+              <li class="relative bg-white rounded-lg hover:shadow-md border p-5 hover:shadow-gray-300 transition-shadow duration-300 ease-in-out">
+    
+                {post.data.heroImage && (      
+                  <Image
+                    width={720}
+                    height={360}
+                    src={post.data.heroImage}
+                    alt=""
+                    class="mb-3 rounded-lg"
+                    loading="lazy"
+                  />
+                )}
+    
+                <a href={`/blog/${post.id}/`} class="block hover:text-[var(--accent)]">
+                  <h2 class="m-0 text-[rgb(var(--black))] text-2xl mb-3">
+                  {post.data.title}
+                  </h2>
+                  <span class="absolute inset-0" aria-hidden="true"></span>
+                </a>
+                <p class="mt-2 font-light text-[0.8em]">{post.data.description}</p>
+                <p class="m-0 text-[rgb(var(--gray))] font-light text-sm">
+                  <FormattedDate date={post.data.pubDate} />
+                </p>
+              </li>
+            ))}
+            </ul>
+      </section>
+
+
+
+          </div>
+        </div>
+      </div>       
+    </main>
+    <Footer />
+  </body>
+</html>

@@ -1,32 +1,80 @@
-name: Deploy to GitHub Pages
+# .github/workflows/deploy.yml
+
+name: Audit, Build, and Deploy to GitHub Pages
 
 on:
   # Trigger the workflow every time you push to the `main` branch
-  # Using a different branch name? Replace `main` with your branch’s name
   push:
     branches: [ main ]
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
+  # Run the workflow every day at 5:00 AM UTC
+  schedule:
+    - cron: '0 5 * * *'
 
-# Allow this job to clone the repo and create a page deployment
+# Allow this job to clone the repo, commit fixes, and create a page deployment
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
+# Define environment variables shared across all jobs in the workflow
+env:
+  NODE_VERSION: '20' # <-- Define your Node.js version once here
+
 jobs:
+  # This is a new job that runs first to handle security vulnerabilities.
+  audit:
+    runs-on: ubuntu-latest
+    # This 'if' condition is crucial to prevent infinite loops.
+    # It stops the job from running if the trigger was a commit made by this workflow.
+    if: "!contains(github.event.head_commit.message, 'chore(security):')"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          # Use the shared environment variable
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run npm audit
+        id: audit
+        run: npm audit
+        continue-on-error: true # Continue even if vulnerabilities are found
+
+      - name: Run npm audit fix if vulnerabilities were found
+        if: steps.audit.outcome == 'failure'
+        run: npm audit fix
+
+      - name: Commit and push changes
+        if: steps.audit.outcome == 'failure'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # The commit message that will be used for the fix.
+          commit_message: 'chore(security): Apply automatic npm audit fix'
+          branch: main
+          file_pattern: package.json package-lock.json
+
+  # Your original build job, now dependent on the 'audit' job completing.
   build:
+    needs: audit
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
       - name: Install, build, and upload your site
         uses: withastro/action@v3
-        # with:
-          # path: . # The root location of your Astro project inside the repository. (optional)
-          # node-version: 20 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
-          # package-manager: pnpm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
+        with:
+          # Use the shared environment variable here as well
+          node-version: ${{ env.NODE_VERSION }}
 
+  # Your deploy job remains unchanged.
   deploy:
     needs: build
     runs-on: ubuntu-latest

@@ -3,10 +3,8 @@
 name: Audit, Build, and Deploy to GitHub Pages
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
   push:
     branches: [ main ]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
   # Run the workflow every day at 5:00 AM UTC
   schedule:
@@ -20,10 +18,10 @@ permissions:
 
 # Define environment variables shared across all jobs in the workflow
 env:
-  NODE_VERSION: '20' # <-- Define your Node.js version once here
+  NODE_VERSION: '20'
 
 jobs:
-  # This is a new job that runs first to handle security vulnerabilities.
+
   audit:
     runs-on: ubuntu-latest
     # This 'if' condition is crucial to prevent infinite loops.
@@ -61,7 +59,6 @@ jobs:
           branch: main
           file_pattern: package.json package-lock.json
 
-  # Your original build job, now dependent on the 'audit' job completing.
   build:
     needs: audit
     runs-on: ubuntu-latest
@@ -71,10 +68,8 @@ jobs:
       - name: Install, build, and upload your site
         uses: withastro/action@v3
         with:
-          # Use the shared environment variable here as well
           node-version: ${{ env.NODE_VERSION }}
 
-  # Your deploy job remains unchanged.
   deploy:
     needs: build
     runs-on: ubuntu-latest

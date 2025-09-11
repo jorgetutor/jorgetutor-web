@@ -1,8 +1,5 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
-
 export const SITE_TITLE = 'Jorge Tutor';
-export const SITE_DESCRIPTION = 'IT Engineer, Software Developer, and Open Source Enthusiast.';
+export const SITE_DESCRIPTION = 'Is your development team facing roadblocks or slow delivery? As an experienced Engineering Manager, I step in to unblock your engineers and streamline software development processes.';
 export const SITE_URL = 'https://jorgetutor.net';
 export const SITE_AUTHOR = 'Jorge Tutor';
 export const SITE_KEYWORDS = [

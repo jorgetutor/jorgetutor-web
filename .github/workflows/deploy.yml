@@ -49,6 +49,7 @@ jobs:
       - name: Run npm audit fix if vulnerabilities were found
         if: steps.audit.outcome == 'failure'
         run: npm audit fix
+        continue-on-error: true  # some vulns require --force (breaking changes); fix manually
 
       - name: Commit and push changes
         if: steps.audit.outcome == 'failure'

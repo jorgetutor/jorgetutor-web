@@ -1,4 +1,4 @@
-.PHONY: dev stop install build preview shell
+.PHONY: dev stop install build preview shell npm
 
 dev:
 	docker compose up
@@ -17,3 +17,9 @@ preview:
 
 shell:
 	docker compose run --rm astro sh
+
+npm:
+	docker compose run --rm astro npm $(filter-out $@,$(MAKECMDGOALS))
+
+%:
+	@:

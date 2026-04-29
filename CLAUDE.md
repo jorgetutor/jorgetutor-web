@@ -2,12 +2,25 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Commands
+## Local development (Docker)
+
+All `npm` commands must run inside the Docker container, never directly on the host. Docker isolates npm and node_modules from the host OS.
+
+`node_modules` is stored in a named Docker volume (`node_modules`), keeping it entirely inside the container. The host-side `node_modules/` directory (if present) is shadowed by the volume and is irrelevant.
 
 ```bash
-npm run dev      # Start development server
-npm run build    # Build for production (static output)
-npm run preview  # Preview production build locally
+make dev        # Start dev server (runs npm install then astro dev --host)
+make stop       # Stop containers
+make install    # Run npm install inside the container
+make build      # Build for production inside the container
+make preview    # Preview production build inside the container
+make shell      # Open a shell inside the container
+```
+
+For arbitrary npm commands (e.g. adding a package):
+
+```bash
+docker compose run --rm astro npm install <package>
 ```
 
 No test runner or linter is configured.

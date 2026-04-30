@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://registry.npmjs.org/schema-dts\")",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s \"https://registry.npmjs.org/astro-seo-schema\")"
+    ]
+  }
+}

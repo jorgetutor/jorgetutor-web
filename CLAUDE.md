@@ -4,23 +4,23 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Local development (Docker)
 
-All `npm` commands must run inside the Docker container, never directly on the host. Docker isolates npm and node_modules from the host OS.
+All `pnpm` commands must run inside the Docker container, never directly on the host. Docker isolates pnpm and node_modules from the host OS.
 
-`node_modules` is stored in a named Docker volume (`node_modules`), keeping it entirely inside the container. The host-side `node_modules/` directory (if present) is shadowed by the volume and is irrelevant.
+`node_modules` and `.pnpm-store` are stored in named Docker volumes, keeping them entirely inside the container. Host-side copies (if present) are shadowed by the volumes and irrelevant. Both are gitignored.
 
 ```bash
-make dev        # Start dev server (runs npm install then astro dev --host)
+make dev        # Start dev server (runs pnpm install then astro dev --host)
 make stop       # Stop containers
-make install    # Run npm install inside the container
+make install    # Run pnpm install inside the container
 make build      # Build for production inside the container
 make preview    # Preview production build inside the container
 make shell      # Open a shell inside the container
 ```
 
-For arbitrary npm commands (e.g. adding a package):
+For arbitrary pnpm commands (e.g. adding a package):
 
 ```bash
-docker compose run --rm astro npm install <package>
+docker compose run --rm astro sh -c "corepack enable && pnpm add <package>"
 ```
 
 No test runner or linter is configured.
@@ -37,4 +37,4 @@ This is a personal blog and portfolio site built with [Astro 5](https://astro.bu
 
 **Site constants** (title, description, social links) are in [src/consts.ts](src/consts.ts).
 
-**CI/CD:** `.github/workflows/deploy.yml` runs daily to auto-fix npm audit vulnerabilities and commit patches, then builds and deploys to GitHub Pages via `withastro/action@v3`.
+**CI/CD:** `.github/workflows/deploy.yml` runs daily to auto-fix pnpm audit vulnerabilities and commit patches, then builds and deploys to GitHub Pages via `withastro/action@v3`.

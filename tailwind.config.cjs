@@ -3,7 +3,11 @@ module.exports = {
     './src/**/*.{astro,js,jsx,ts,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        'screen-fhd': '1920px',
+      },
+    },
   },
   plugins: [],
 };
